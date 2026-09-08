@@ -35,27 +35,30 @@ no bytes.
 
 ```
 app/
-  page.tsx               the lobby
-  game/[slug]/page.tsx   the game shell
-  cdn/[...path]/route.ts serves the bundle at the URL shape a CDN would
-components/              tile, iframe shell, prefetch registration
-lib/                     catalogue types and the server-side reader
+  page.tsx              the lobby
+  game/[slug]/page.tsx  the game shell
+components/             tile, iframe shell, prefetch registration
+lib/                    catalogue types and the server-side reader
 public/
-  catalogue.json         30 games + the Play-screen slice — the source of truth
-  sw.js                  the caching engine
-bundle/                  the game bundle, served as-is
-e2e/                     Playwright tests
+  catalogue.json        30 games + the Play-screen slice — the source of truth
+  sw.js                 the caching engine
+  bundle/               the game bundle, served as-is
+e2e/                    Playwright tests
 ```
 
 ## The bundle
 
-`bundle/` is the shipped game, unmodified. It is served at
-`/cdn/{bundleVersion}/…`, where the version is a content hash of the whole
-directory — so every URL is immutable and the worker never invalidates anything,
-only evicts.
+`public/bundle/` is the shipped game, unmodified. A rewrite in `next.config.ts`
+serves it at `/cdn/{bundleVersion}/…`, where the version is a content hash of the
+whole directory — so every URL is immutable and the worker never invalidates
+anything, only evicts. Next serves the files statically, which also gives range
+requests: the game seeks within its audio.
 
-Regenerate `bundleVersion` and the slice sizes after changing `bundle/`; the
+Regenerate `bundleVersion` and the slice sizes after changing the bundle; the
 hash is what makes a redeploy replace the cache instead of serving stale bytes.
+
+One asset 404s: `spines/@1x/book.png`, which `book.atlas` references but the
+vendor never shipped. It predates this repo.
 
 ## Invariants
 

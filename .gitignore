@@ -6,6 +6,3 @@ next-env.d.ts
 /test-results/
 .DS_Store
 
-# The baked 30-game bundles. Optional: without them the lobby falls back to the
-# unmodified source bundle in assets/ and still works.
-/cdn/
