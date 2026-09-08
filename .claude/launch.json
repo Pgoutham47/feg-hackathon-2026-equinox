@@ -1,33 +1,6 @@
 {
   "version": "0.0.1",
   "configurations": [
-    {
-      "name": "empireofgold",
-      "runtimeExecutable": "python3",
-      "runtimeArgs": [
-        "/private/tmp/claude-501/-Users-gouthampakala-Downloads-empireofgold/67fa5b29-147e-4b20-b5e7-1b050aab8d68/scratchpad/serve.py"
-      ],
-      "port": 8123
-    },
-    {
-      "name": "web",
-      "runtimeExecutable": "pnpm",
-      "runtimeArgs": [
-        "--filter",
-        "@eog/web",
-        "dev"
-      ],
-      "port": 3000
-    },
-    {
-      "name": "api",
-      "runtimeExecutable": "pnpm",
-      "runtimeArgs": [
-        "--filter",
-        "@eog/api",
-        "dev"
-      ],
-      "port": 8000
-    }
+    { "name": "web", "runtimeExecutable": "npm", "runtimeArgs": ["run", "dev"], "port": 3000 }
   ]
 }

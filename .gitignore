@@ -1,33 +1,11 @@
 node_modules/
-.pnpm-store/
-.turbo/
 .next/
-out/
-dist/
-coverage/
-.venv/
-__pycache__/
-*.py[cod]
-.pytest_cache/
-.ruff_cache/
-.mypy_cache/
-.env
-.env.local
-.env.*.local
-!.env.example
-.DS_Store
-*.log
+next-env.d.ts
+*.tsbuildinfo
 /playwright-report/
 /test-results/
-# generated
-packages/api-client/src/schema.d.ts
-apps/web/public/sw.js
-apps/web/public/sw.js.map
-# baked + published artifacts — rebuilt by tools/skin-baker
-tools/skin-baker/out/
-/cdn/
+.DS_Store
 
-# prefetch-demo: generated + local artefacts
-prefetch-demo/site/games/
-prefetch-demo/tools/out/
-prefetch-demo/report.jsonl.bak
+# The baked 30-game bundles. Optional: without them the lobby falls back to the
+# unmodified source bundle in assets/ and still works.
+/cdn/

@@ -1,0 +1,4385 @@
+{
+ "engineVersion": "b9a02d6b03e54a1a",
+ "games": [
+  {
+   "slug": "multiplay-81",
+   "name": "Multiplay 81",
+   "provider": "E-Gaming",
+   "symbol": "81",
+   "gradient": "#91337b,#2b1225",
+   "bundleVersion": "9eba81035d094217",
+   "popularity": 0.967,
+   "slice": [
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.png",
+     "bytes": 2220848,
+     "shared": false
+    },
+    {
+     "path": "assets/vendor-pixi-C8WzrnZv.js",
+     "bytes": 1292928,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim_2.png",
+     "bytes": 1037244,
+     "shared": false
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.webp",
+     "bytes": 488326,
+     "shared": false
+    },
+    {
+     "path": "assets/core-engine-DXW-O-mj.js",
+     "bytes": 389215,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.jpg",
+     "bytes": 212507,
+     "shared": false
+    },
+    {
+     "path": "assets/fonts/en/Mulish.ttf",
+     "bytes": 210380,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/NewRocker-Regular.ttf",
+     "bytes": 168128,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/Oswald-Bold.ttf",
+     "bytes": 87600,
+     "shared": true
+    },
+    {
+     "path": "assets/game-empireofgold-CK6MbOiD.js",
+     "bytes": 45677,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/history.css",
+     "bytes": 19498,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.webp",
+     "bytes": 17168,
+     "shared": false
+    },
+    {
+     "path": "assets/locale/en/commonContent.json",
+     "bytes": 14865,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/commonGameRules.css",
+     "bytes": 14077,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.json",
+     "bytes": 9577,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/devUtils/cheatTool.css",
+     "bytes": 7915,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/brandLogo.png",
+     "bytes": 7724,
+     "shared": false
+    },
+    {
+     "path": "assets/index-canvas-_ynnR-4e.js",
+     "bytes": 7221,
+     "shared": true
+    },
+    {
+     "path": "assets/images/loader.webp",
+     "bytes": 4136,
+     "shared": false
+    },
+    {
+     "path": "assets/locale/en/gameContent.json",
+     "bytes": 3921,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/footer.css",
+     "bytes": 2748,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/common.css",
+     "bytes": 2213,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.atlas",
+     "bytes": 1761,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.json",
+     "bytes": 1633,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/gameRules.css",
+     "bytes": 1326,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.json",
+     "bytes": 1135,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.json",
+     "bytes": 520,
+     "shared": true
+    }
+   ]
+  },
+  {
+   "slug": "frozzy-fruits",
+   "name": "Frozzy Fruits",
+   "provider": "E-Gaming",
+   "symbol": "\u2744",
+   "gradient": "#2887d0,#102a3d",
+   "bundleVersion": "f4bbe1c9d5f2cb02",
+   "popularity": 0.933,
+   "slice": [
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.png",
+     "bytes": 2202440,
+     "shared": false
+    },
+    {
+     "path": "assets/vendor-pixi-C8WzrnZv.js",
+     "bytes": 1292928,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim_2.png",
+     "bytes": 1020780,
+     "shared": false
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.webp",
+     "bytes": 500078,
+     "shared": false
+    },
+    {
+     "path": "assets/core-engine-DXW-O-mj.js",
+     "bytes": 389215,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.jpg",
+     "bytes": 218798,
+     "shared": false
+    },
+    {
+     "path": "assets/fonts/en/Mulish.ttf",
+     "bytes": 210380,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/NewRocker-Regular.ttf",
+     "bytes": 168128,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/Oswald-Bold.ttf",
+     "bytes": 87600,
+     "shared": true
+    },
+    {
+     "path": "assets/game-empireofgold-CK6MbOiD.js",
+     "bytes": 45678,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/history.css",
+     "bytes": 19498,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.webp",
+     "bytes": 17528,
+     "shared": false
+    },
+    {
+     "path": "assets/locale/en/commonContent.json",
+     "bytes": 14865,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/commonGameRules.css",
+     "bytes": 14077,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.json",
+     "bytes": 9577,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/devUtils/cheatTool.css",
+     "bytes": 7915,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/brandLogo.png",
+     "bytes": 7462,
+     "shared": false
+    },
+    {
+     "path": "assets/index-canvas-_ynnR-4e.js",
+     "bytes": 7221,
+     "shared": true
+    },
+    {
+     "path": "assets/images/loader.webp",
+     "bytes": 4252,
+     "shared": false
+    },
+    {
+     "path": "assets/locale/en/gameContent.json",
+     "bytes": 3922,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/footer.css",
+     "bytes": 2748,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/common.css",
+     "bytes": 2213,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.atlas",
+     "bytes": 1761,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.json",
+     "bytes": 1633,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/gameRules.css",
+     "bytes": 1326,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.json",
+     "bytes": 1135,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.json",
+     "bytes": 520,
+     "shared": true
+    }
+   ]
+  },
+  {
+   "slug": "hunter-s-dream-2",
+   "name": "Hunter's Dream 2",
+   "provider": "E-Gaming",
+   "symbol": "\u2663",
+   "gradient": "#d06849,#3d2219",
+   "bundleVersion": "26a05a92212ba0e0",
+   "popularity": 0.9,
+   "slice": [
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.png",
+     "bytes": 2234511,
+     "shared": false
+    },
+    {
+     "path": "assets/vendor-pixi-C8WzrnZv.js",
+     "bytes": 1292928,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim_2.png",
+     "bytes": 1036380,
+     "shared": false
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.webp",
+     "bytes": 493450,
+     "shared": false
+    },
+    {
+     "path": "assets/core-engine-DXW-O-mj.js",
+     "bytes": 389215,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.jpg",
+     "bytes": 216724,
+     "shared": false
+    },
+    {
+     "path": "assets/fonts/en/Mulish.ttf",
+     "bytes": 210380,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/NewRocker-Regular.ttf",
+     "bytes": 168128,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/Oswald-Bold.ttf",
+     "bytes": 87600,
+     "shared": true
+    },
+    {
+     "path": "assets/game-empireofgold-CK6MbOiD.js",
+     "bytes": 45681,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/history.css",
+     "bytes": 19498,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.webp",
+     "bytes": 17132,
+     "shared": false
+    },
+    {
+     "path": "assets/locale/en/commonContent.json",
+     "bytes": 14865,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/commonGameRules.css",
+     "bytes": 14077,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.json",
+     "bytes": 9577,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/devUtils/cheatTool.css",
+     "bytes": 7915,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/brandLogo.png",
+     "bytes": 7764,
+     "shared": false
+    },
+    {
+     "path": "assets/index-canvas-_ynnR-4e.js",
+     "bytes": 7221,
+     "shared": true
+    },
+    {
+     "path": "assets/images/loader.webp",
+     "bytes": 4048,
+     "shared": false
+    },
+    {
+     "path": "assets/locale/en/gameContent.json",
+     "bytes": 3925,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/footer.css",
+     "bytes": 2748,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/common.css",
+     "bytes": 2213,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.atlas",
+     "bytes": 1761,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.json",
+     "bytes": 1633,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/gameRules.css",
+     "bytes": 1326,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.json",
+     "bytes": 1135,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.json",
+     "bytes": 520,
+     "shared": true
+    }
+   ]
+  },
+  {
+   "slug": "golden-fate-1000",
+   "name": "Golden Fate 1000",
+   "provider": "Pateplay",
+   "symbol": "\u2625",
+   "gradient": "#6ca620,#21310d",
+   "bundleVersion": "971ec0d92a694623",
+   "popularity": 0.867,
+   "slice": [
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.png",
+     "bytes": 2201581,
+     "shared": false
+    },
+    {
+     "path": "assets/vendor-pixi-C8WzrnZv.js",
+     "bytes": 1292928,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim_2.png",
+     "bytes": 1025938,
+     "shared": false
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.webp",
+     "bytes": 495218,
+     "shared": false
+    },
+    {
+     "path": "assets/core-engine-DXW-O-mj.js",
+     "bytes": 389215,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.jpg",
+     "bytes": 220369,
+     "shared": false
+    },
+    {
+     "path": "assets/fonts/en/Mulish.ttf",
+     "bytes": 210380,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/NewRocker-Regular.ttf",
+     "bytes": 168128,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/Oswald-Bold.ttf",
+     "bytes": 87600,
+     "shared": true
+    },
+    {
+     "path": "assets/game-empireofgold-CK6MbOiD.js",
+     "bytes": 45681,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/history.css",
+     "bytes": 19498,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.webp",
+     "bytes": 17110,
+     "shared": false
+    },
+    {
+     "path": "assets/locale/en/commonContent.json",
+     "bytes": 14865,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/commonGameRules.css",
+     "bytes": 14077,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.json",
+     "bytes": 9577,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/devUtils/cheatTool.css",
+     "bytes": 7915,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/brandLogo.png",
+     "bytes": 7505,
+     "shared": false
+    },
+    {
+     "path": "assets/index-canvas-_ynnR-4e.js",
+     "bytes": 7221,
+     "shared": true
+    },
+    {
+     "path": "assets/images/loader.webp",
+     "bytes": 4084,
+     "shared": false
+    },
+    {
+     "path": "assets/locale/en/gameContent.json",
+     "bytes": 3925,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/footer.css",
+     "bytes": 2748,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/common.css",
+     "bytes": 2213,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.atlas",
+     "bytes": 1761,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.json",
+     "bytes": 1633,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/gameRules.css",
+     "bytes": 1326,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.json",
+     "bytes": 1135,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.json",
+     "bytes": 520,
+     "shared": true
+    }
+   ]
+  },
+  {
+   "slug": "dynamite-splash-20",
+   "name": "Dynamite Splash 20",
+   "provider": "Pateplay",
+   "symbol": "\u2739",
+   "gradient": "#a62d41,#311116",
+   "bundleVersion": "526c8a335d1e817c",
+   "popularity": 0.833,
+   "slice": [
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.png",
+     "bytes": 2211443,
+     "shared": false
+    },
+    {
+     "path": "assets/vendor-pixi-C8WzrnZv.js",
+     "bytes": 1292928,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim_2.png",
+     "bytes": 1025283,
+     "shared": false
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.webp",
+     "bytes": 483428,
+     "shared": false
+    },
+    {
+     "path": "assets/core-engine-DXW-O-mj.js",
+     "bytes": 389215,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.jpg",
+     "bytes": 212147,
+     "shared": false
+    },
+    {
+     "path": "assets/fonts/en/Mulish.ttf",
+     "bytes": 210380,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/NewRocker-Regular.ttf",
+     "bytes": 168128,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/Oswald-Bold.ttf",
+     "bytes": 87600,
+     "shared": true
+    },
+    {
+     "path": "assets/game-empireofgold-CK6MbOiD.js",
+     "bytes": 45683,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/history.css",
+     "bytes": 19498,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.webp",
+     "bytes": 16458,
+     "shared": false
+    },
+    {
+     "path": "assets/locale/en/commonContent.json",
+     "bytes": 14865,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/commonGameRules.css",
+     "bytes": 14077,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.json",
+     "bytes": 9577,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/devUtils/cheatTool.css",
+     "bytes": 7915,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/brandLogo.png",
+     "bytes": 7509,
+     "shared": false
+    },
+    {
+     "path": "assets/index-canvas-_ynnR-4e.js",
+     "bytes": 7221,
+     "shared": true
+    },
+    {
+     "path": "assets/locale/en/gameContent.json",
+     "bytes": 3927,
+     "shared": false
+    },
+    {
+     "path": "assets/images/loader.webp",
+     "bytes": 3490,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/footer.css",
+     "bytes": 2748,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/common.css",
+     "bytes": 2213,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.atlas",
+     "bytes": 1761,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.json",
+     "bytes": 1633,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/gameRules.css",
+     "bytes": 1326,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.json",
+     "bytes": 1135,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.json",
+     "bytes": 520,
+     "shared": true
+    }
+   ]
+  },
+  {
+   "slug": "5-burning-clover",
+   "name": "5 Burning Clover",
+   "provider": "EGT Digital",
+   "symbol": "\u2667",
+   "gradient": "#07d087,#083d2a",
+   "bundleVersion": "a1dd52e89057d7f8",
+   "popularity": 0.8,
+   "slice": [
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.png",
+     "bytes": 2115123,
+     "shared": false
+    },
+    {
+     "path": "assets/vendor-pixi-C8WzrnZv.js",
+     "bytes": 1292928,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim_2.png",
+     "bytes": 984917,
+     "shared": false
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.webp",
+     "bytes": 486926,
+     "shared": false
+    },
+    {
+     "path": "assets/core-engine-DXW-O-mj.js",
+     "bytes": 389215,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.jpg",
+     "bytes": 214877,
+     "shared": false
+    },
+    {
+     "path": "assets/fonts/en/Mulish.ttf",
+     "bytes": 210380,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/NewRocker-Regular.ttf",
+     "bytes": 168128,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/Oswald-Bold.ttf",
+     "bytes": 87600,
+     "shared": true
+    },
+    {
+     "path": "assets/game-empireofgold-CK6MbOiD.js",
+     "bytes": 45681,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/history.css",
+     "bytes": 19498,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.webp",
+     "bytes": 17158,
+     "shared": false
+    },
+    {
+     "path": "assets/locale/en/commonContent.json",
+     "bytes": 14865,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/commonGameRules.css",
+     "bytes": 14077,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.json",
+     "bytes": 9577,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/devUtils/cheatTool.css",
+     "bytes": 7915,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/brandLogo.png",
+     "bytes": 7555,
+     "shared": false
+    },
+    {
+     "path": "assets/index-canvas-_ynnR-4e.js",
+     "bytes": 7221,
+     "shared": true
+    },
+    {
+     "path": "assets/images/loader.webp",
+     "bytes": 4030,
+     "shared": false
+    },
+    {
+     "path": "assets/locale/en/gameContent.json",
+     "bytes": 3925,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/footer.css",
+     "bytes": 2748,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/common.css",
+     "bytes": 2213,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.atlas",
+     "bytes": 1761,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.json",
+     "bytes": 1633,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/gameRules.css",
+     "bytes": 1326,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.json",
+     "bytes": 1135,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.json",
+     "bytes": 520,
+     "shared": true
+    }
+   ]
+  },
+  {
+   "slug": "20-super-hot-bell",
+   "name": "20 Super Hot Bell",
+   "provider": "EGT Digital",
+   "symbol": "7",
+   "gradient": "#802791,#260f2b",
+   "bundleVersion": "415b528cabb18c7e",
+   "popularity": 0.767,
+   "slice": [
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.png",
+     "bytes": 2221274,
+     "shared": false
+    },
+    {
+     "path": "assets/vendor-pixi-C8WzrnZv.js",
+     "bytes": 1292928,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim_2.png",
+     "bytes": 1031269,
+     "shared": false
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.webp",
+     "bytes": 489486,
+     "shared": false
+    },
+    {
+     "path": "assets/core-engine-DXW-O-mj.js",
+     "bytes": 389215,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.jpg",
+     "bytes": 215292,
+     "shared": false
+    },
+    {
+     "path": "assets/fonts/en/Mulish.ttf",
+     "bytes": 210380,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/NewRocker-Regular.ttf",
+     "bytes": 168128,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/Oswald-Bold.ttf",
+     "bytes": 87600,
+     "shared": true
+    },
+    {
+     "path": "assets/game-empireofgold-CK6MbOiD.js",
+     "bytes": 45682,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/history.css",
+     "bytes": 19498,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.webp",
+     "bytes": 17132,
+     "shared": false
+    },
+    {
+     "path": "assets/locale/en/commonContent.json",
+     "bytes": 14865,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/commonGameRules.css",
+     "bytes": 14077,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.json",
+     "bytes": 9577,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/devUtils/cheatTool.css",
+     "bytes": 7915,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/brandLogo.png",
+     "bytes": 7501,
+     "shared": false
+    },
+    {
+     "path": "assets/index-canvas-_ynnR-4e.js",
+     "bytes": 7221,
+     "shared": true
+    },
+    {
+     "path": "assets/locale/en/gameContent.json",
+     "bytes": 3926,
+     "shared": false
+    },
+    {
+     "path": "assets/images/loader.webp",
+     "bytes": 3920,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/footer.css",
+     "bytes": 2748,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/common.css",
+     "bytes": 2213,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.atlas",
+     "bytes": 1761,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.json",
+     "bytes": 1633,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/gameRules.css",
+     "bytes": 1326,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.json",
+     "bytes": 1135,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.json",
+     "bytes": 520,
+     "shared": true
+    }
+   ]
+  },
+  {
+   "slug": "fruit-force",
+   "name": "Fruit Force",
+   "provider": "Synot",
+   "symbol": "\u2666",
+   "gradient": "#6624bb,#200f37",
+   "bundleVersion": "51725871475dfed2",
+   "popularity": 0.733,
+   "slice": [
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.png",
+     "bytes": 2203080,
+     "shared": false
+    },
+    {
+     "path": "assets/vendor-pixi-C8WzrnZv.js",
+     "bytes": 1292928,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim_2.png",
+     "bytes": 1022527,
+     "shared": false
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.webp",
+     "bytes": 483326,
+     "shared": false
+    },
+    {
+     "path": "assets/core-engine-DXW-O-mj.js",
+     "bytes": 389215,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.jpg",
+     "bytes": 219615,
+     "shared": false
+    },
+    {
+     "path": "assets/fonts/en/Mulish.ttf",
+     "bytes": 210380,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/NewRocker-Regular.ttf",
+     "bytes": 168128,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/Oswald-Bold.ttf",
+     "bytes": 87600,
+     "shared": true
+    },
+    {
+     "path": "assets/game-empireofgold-CK6MbOiD.js",
+     "bytes": 45676,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/history.css",
+     "bytes": 19498,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.webp",
+     "bytes": 16442,
+     "shared": false
+    },
+    {
+     "path": "assets/locale/en/commonContent.json",
+     "bytes": 14865,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/commonGameRules.css",
+     "bytes": 14077,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.json",
+     "bytes": 9577,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/devUtils/cheatTool.css",
+     "bytes": 7915,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/brandLogo.png",
+     "bytes": 7530,
+     "shared": false
+    },
+    {
+     "path": "assets/index-canvas-_ynnR-4e.js",
+     "bytes": 7221,
+     "shared": true
+    },
+    {
+     "path": "assets/locale/en/gameContent.json",
+     "bytes": 3920,
+     "shared": false
+    },
+    {
+     "path": "assets/images/loader.webp",
+     "bytes": 3572,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/footer.css",
+     "bytes": 2748,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/common.css",
+     "bytes": 2213,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.atlas",
+     "bytes": 1761,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.json",
+     "bytes": 1633,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/gameRules.css",
+     "bytes": 1326,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.json",
+     "bytes": 1135,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.json",
+     "bytes": 520,
+     "shared": true
+    }
+   ]
+  },
+  {
+   "slug": "diamonds-power",
+   "name": "Diamonds Power",
+   "provider": "Playson",
+   "symbol": "\u25c6",
+   "gradient": "#0649bb,#071937",
+   "bundleVersion": "2744e2c6ee8b4bfb",
+   "popularity": 0.7,
+   "slice": [
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.png",
+     "bytes": 2092653,
+     "shared": false
+    },
+    {
+     "path": "assets/vendor-pixi-C8WzrnZv.js",
+     "bytes": 1292928,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim_2.png",
+     "bytes": 972020,
+     "shared": false
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.webp",
+     "bytes": 495902,
+     "shared": false
+    },
+    {
+     "path": "assets/core-engine-DXW-O-mj.js",
+     "bytes": 389215,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.jpg",
+     "bytes": 217739,
+     "shared": false
+    },
+    {
+     "path": "assets/fonts/en/Mulish.ttf",
+     "bytes": 210380,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/NewRocker-Regular.ttf",
+     "bytes": 168128,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/Oswald-Bold.ttf",
+     "bytes": 87600,
+     "shared": true
+    },
+    {
+     "path": "assets/game-empireofgold-CK6MbOiD.js",
+     "bytes": 45679,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/history.css",
+     "bytes": 19498,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.webp",
+     "bytes": 17286,
+     "shared": false
+    },
+    {
+     "path": "assets/locale/en/commonContent.json",
+     "bytes": 14865,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/commonGameRules.css",
+     "bytes": 14077,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.json",
+     "bytes": 9577,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/devUtils/cheatTool.css",
+     "bytes": 7915,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/brandLogo.png",
+     "bytes": 7480,
+     "shared": false
+    },
+    {
+     "path": "assets/index-canvas-_ynnR-4e.js",
+     "bytes": 7221,
+     "shared": true
+    },
+    {
+     "path": "assets/images/loader.webp",
+     "bytes": 4152,
+     "shared": false
+    },
+    {
+     "path": "assets/locale/en/gameContent.json",
+     "bytes": 3923,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/footer.css",
+     "bytes": 2748,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/common.css",
+     "bytes": 2213,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.atlas",
+     "bytes": 1761,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.json",
+     "bytes": 1633,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/gameRules.css",
+     "bytes": 1326,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.json",
+     "bytes": 1135,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.json",
+     "bytes": 520,
+     "shared": true
+    }
+   ]
+  },
+  {
+   "slug": "lucky-piggies-2",
+   "name": "Lucky Piggies 2",
+   "provider": "Amatic",
+   "symbol": "\u2605",
+   "gradient": "#918027,#2b260f",
+   "bundleVersion": "2379d0c0fe3aca42",
+   "popularity": 0.667,
+   "slice": [
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.png",
+     "bytes": 2229820,
+     "shared": false
+    },
+    {
+     "path": "assets/vendor-pixi-C8WzrnZv.js",
+     "bytes": 1292928,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim_2.png",
+     "bytes": 1038433,
+     "shared": false
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.webp",
+     "bytes": 489942,
+     "shared": false
+    },
+    {
+     "path": "assets/core-engine-DXW-O-mj.js",
+     "bytes": 389215,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.jpg",
+     "bytes": 215167,
+     "shared": false
+    },
+    {
+     "path": "assets/fonts/en/Mulish.ttf",
+     "bytes": 210380,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/NewRocker-Regular.ttf",
+     "bytes": 168128,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/Oswald-Bold.ttf",
+     "bytes": 87600,
+     "shared": true
+    },
+    {
+     "path": "assets/game-empireofgold-CK6MbOiD.js",
+     "bytes": 45680,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/history.css",
+     "bytes": 19498,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.webp",
+     "bytes": 17390,
+     "shared": false
+    },
+    {
+     "path": "assets/locale/en/commonContent.json",
+     "bytes": 14865,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/commonGameRules.css",
+     "bytes": 14077,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.json",
+     "bytes": 9577,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/devUtils/cheatTool.css",
+     "bytes": 7915,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/brandLogo.png",
+     "bytes": 7506,
+     "shared": false
+    },
+    {
+     "path": "assets/index-canvas-_ynnR-4e.js",
+     "bytes": 7221,
+     "shared": true
+    },
+    {
+     "path": "assets/images/loader.webp",
+     "bytes": 4200,
+     "shared": false
+    },
+    {
+     "path": "assets/locale/en/gameContent.json",
+     "bytes": 3924,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/footer.css",
+     "bytes": 2748,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/common.css",
+     "bytes": 2213,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.atlas",
+     "bytes": 1761,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.json",
+     "bytes": 1633,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/gameRules.css",
+     "bytes": 1326,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.json",
+     "bytes": 1135,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.json",
+     "bytes": 520,
+     "shared": true
+    }
+   ]
+  },
+  {
+   "slug": "royal-coins-2",
+   "name": "Royal Coins 2",
+   "provider": "Playson",
+   "symbol": "\u265b",
+   "gradient": "#15bb1b,#0b370c",
+   "bundleVersion": "c3bd73ecf935ab5d",
+   "popularity": 0.633,
+   "slice": [
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.png",
+     "bytes": 2147541,
+     "shared": false
+    },
+    {
+     "path": "assets/vendor-pixi-C8WzrnZv.js",
+     "bytes": 1292928,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim_2.png",
+     "bytes": 995591,
+     "shared": false
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.webp",
+     "bytes": 498900,
+     "shared": false
+    },
+    {
+     "path": "assets/core-engine-DXW-O-mj.js",
+     "bytes": 389215,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.jpg",
+     "bytes": 218984,
+     "shared": false
+    },
+    {
+     "path": "assets/fonts/en/Mulish.ttf",
+     "bytes": 210380,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/NewRocker-Regular.ttf",
+     "bytes": 168128,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/Oswald-Bold.ttf",
+     "bytes": 87600,
+     "shared": true
+    },
+    {
+     "path": "assets/game-empireofgold-CK6MbOiD.js",
+     "bytes": 45678,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/history.css",
+     "bytes": 19498,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.webp",
+     "bytes": 17576,
+     "shared": false
+    },
+    {
+     "path": "assets/locale/en/commonContent.json",
+     "bytes": 14865,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/commonGameRules.css",
+     "bytes": 14077,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.json",
+     "bytes": 9577,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/devUtils/cheatTool.css",
+     "bytes": 7915,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/brandLogo.png",
+     "bytes": 7553,
+     "shared": false
+    },
+    {
+     "path": "assets/index-canvas-_ynnR-4e.js",
+     "bytes": 7221,
+     "shared": true
+    },
+    {
+     "path": "assets/images/loader.webp",
+     "bytes": 4262,
+     "shared": false
+    },
+    {
+     "path": "assets/locale/en/gameContent.json",
+     "bytes": 3922,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/footer.css",
+     "bytes": 2748,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/common.css",
+     "bytes": 2213,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.atlas",
+     "bytes": 1761,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.json",
+     "bytes": 1633,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/gameRules.css",
+     "bytes": 1326,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.json",
+     "bytes": 1135,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.json",
+     "bytes": 520,
+     "shared": true
+    }
+   ]
+  },
+  {
+   "slug": "hot-fruits-20",
+   "name": "Hot Fruits 20",
+   "provider": "Amatic",
+   "symbol": "\u2726",
+   "gradient": "#d02887,#3d102a",
+   "bundleVersion": "08b84a4cec7307da",
+   "popularity": 0.6,
+   "slice": [
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.png",
+     "bytes": 2228846,
+     "shared": false
+    },
+    {
+     "path": "assets/vendor-pixi-C8WzrnZv.js",
+     "bytes": 1292928,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim_2.png",
+     "bytes": 1034358,
+     "shared": false
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.webp",
+     "bytes": 487346,
+     "shared": false
+    },
+    {
+     "path": "assets/core-engine-DXW-O-mj.js",
+     "bytes": 389215,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.jpg",
+     "bytes": 215827,
+     "shared": false
+    },
+    {
+     "path": "assets/fonts/en/Mulish.ttf",
+     "bytes": 210380,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/NewRocker-Regular.ttf",
+     "bytes": 168128,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/Oswald-Bold.ttf",
+     "bytes": 87600,
+     "shared": true
+    },
+    {
+     "path": "assets/game-empireofgold-CK6MbOiD.js",
+     "bytes": 45678,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/history.css",
+     "bytes": 19498,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.webp",
+     "bytes": 17118,
+     "shared": false
+    },
+    {
+     "path": "assets/locale/en/commonContent.json",
+     "bytes": 14865,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/commonGameRules.css",
+     "bytes": 14077,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.json",
+     "bytes": 9577,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/devUtils/cheatTool.css",
+     "bytes": 7915,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/brandLogo.png",
+     "bytes": 7448,
+     "shared": false
+    },
+    {
+     "path": "assets/index-canvas-_ynnR-4e.js",
+     "bytes": 7221,
+     "shared": true
+    },
+    {
+     "path": "assets/images/loader.webp",
+     "bytes": 4032,
+     "shared": false
+    },
+    {
+     "path": "assets/locale/en/gameContent.json",
+     "bytes": 3922,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/footer.css",
+     "bytes": 2748,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/common.css",
+     "bytes": 2213,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.atlas",
+     "bytes": 1761,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.json",
+     "bytes": 1633,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/gameRules.css",
+     "bytes": 1326,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.json",
+     "bytes": 1135,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.json",
+     "bytes": 520,
+     "shared": true
+    }
+   ]
+  },
+  {
+   "slug": "sizzling-hot-deluxe",
+   "name": "Sizzling Hot Deluxe",
+   "provider": "Greentube",
+   "symbol": "7",
+   "gradient": "#bb0649,#370719",
+   "bundleVersion": "0e3bcf3630a3fc77",
+   "popularity": 0.567,
+   "slice": [
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.png",
+     "bytes": 2122692,
+     "shared": false
+    },
+    {
+     "path": "assets/vendor-pixi-C8WzrnZv.js",
+     "bytes": 1292928,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim_2.png",
+     "bytes": 988875,
+     "shared": false
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.webp",
+     "bytes": 482818,
+     "shared": false
+    },
+    {
+     "path": "assets/core-engine-DXW-O-mj.js",
+     "bytes": 389215,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.jpg",
+     "bytes": 215406,
+     "shared": false
+    },
+    {
+     "path": "assets/fonts/en/Mulish.ttf",
+     "bytes": 210380,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/NewRocker-Regular.ttf",
+     "bytes": 168128,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/Oswald-Bold.ttf",
+     "bytes": 87600,
+     "shared": true
+    },
+    {
+     "path": "assets/game-empireofgold-CK6MbOiD.js",
+     "bytes": 45684,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/history.css",
+     "bytes": 19498,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.webp",
+     "bytes": 16716,
+     "shared": false
+    },
+    {
+     "path": "assets/locale/en/commonContent.json",
+     "bytes": 14865,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/commonGameRules.css",
+     "bytes": 14077,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.json",
+     "bytes": 9577,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/devUtils/cheatTool.css",
+     "bytes": 7915,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/brandLogo.png",
+     "bytes": 7471,
+     "shared": false
+    },
+    {
+     "path": "assets/index-canvas-_ynnR-4e.js",
+     "bytes": 7221,
+     "shared": true
+    },
+    {
+     "path": "assets/locale/en/gameContent.json",
+     "bytes": 3928,
+     "shared": false
+    },
+    {
+     "path": "assets/images/loader.webp",
+     "bytes": 3816,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/footer.css",
+     "bytes": 2748,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/common.css",
+     "bytes": 2213,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.atlas",
+     "bytes": 1761,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.json",
+     "bytes": 1633,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/gameRules.css",
+     "bytes": 1326,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.json",
+     "bytes": 1135,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.json",
+     "bytes": 520,
+     "shared": true
+    }
+   ]
+  },
+  {
+   "slug": "aurum-hot-40",
+   "name": "Aurum Hot 40",
+   "provider": "Fazi",
+   "symbol": "\u2660",
+   "gradient": "#52d038,#1c3d15",
+   "bundleVersion": "963e5740ed00f16b",
+   "popularity": 0.533,
+   "slice": [
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.png",
+     "bytes": 2210317,
+     "shared": false
+    },
+    {
+     "path": "assets/vendor-pixi-C8WzrnZv.js",
+     "bytes": 1292928,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim_2.png",
+     "bytes": 1025028,
+     "shared": false
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.webp",
+     "bytes": 500298,
+     "shared": false
+    },
+    {
+     "path": "assets/core-engine-DXW-O-mj.js",
+     "bytes": 389215,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.jpg",
+     "bytes": 221342,
+     "shared": false
+    },
+    {
+     "path": "assets/fonts/en/Mulish.ttf",
+     "bytes": 210380,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/NewRocker-Regular.ttf",
+     "bytes": 168128,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/Oswald-Bold.ttf",
+     "bytes": 87600,
+     "shared": true
+    },
+    {
+     "path": "assets/game-empireofgold-CK6MbOiD.js",
+     "bytes": 45677,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/history.css",
+     "bytes": 19498,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.webp",
+     "bytes": 17578,
+     "shared": false
+    },
+    {
+     "path": "assets/locale/en/commonContent.json",
+     "bytes": 14865,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/commonGameRules.css",
+     "bytes": 14077,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.json",
+     "bytes": 9577,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/devUtils/cheatTool.css",
+     "bytes": 7915,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/brandLogo.png",
+     "bytes": 7545,
+     "shared": false
+    },
+    {
+     "path": "assets/index-canvas-_ynnR-4e.js",
+     "bytes": 7221,
+     "shared": true
+    },
+    {
+     "path": "assets/images/loader.webp",
+     "bytes": 4294,
+     "shared": false
+    },
+    {
+     "path": "assets/locale/en/gameContent.json",
+     "bytes": 3921,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/footer.css",
+     "bytes": 2748,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/common.css",
+     "bytes": 2213,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.atlas",
+     "bytes": 1761,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.json",
+     "bytes": 1633,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/gameRules.css",
+     "bytes": 1326,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.json",
+     "bytes": 1135,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.json",
+     "bytes": 520,
+     "shared": true
+    }
+   ]
+  },
+  {
+   "slug": "reactoonz",
+   "name": "Reactoonz",
+   "provider": "Play'n GO",
+   "symbol": "\u25c9",
+   "gradient": "#13a1a6,#0a3031",
+   "bundleVersion": "38d1ddb4d7311d37",
+   "popularity": 0.5,
+   "slice": [
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.png",
+     "bytes": 2150714,
+     "shared": false
+    },
+    {
+     "path": "assets/vendor-pixi-C8WzrnZv.js",
+     "bytes": 1292928,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim_2.png",
+     "bytes": 1004705,
+     "shared": false
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.webp",
+     "bytes": 488558,
+     "shared": false
+    },
+    {
+     "path": "assets/core-engine-DXW-O-mj.js",
+     "bytes": 389215,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.jpg",
+     "bytes": 215617,
+     "shared": false
+    },
+    {
+     "path": "assets/fonts/en/Mulish.ttf",
+     "bytes": 210380,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/NewRocker-Regular.ttf",
+     "bytes": 168128,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/Oswald-Bold.ttf",
+     "bytes": 87600,
+     "shared": true
+    },
+    {
+     "path": "assets/game-empireofgold-CK6MbOiD.js",
+     "bytes": 45674,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/history.css",
+     "bytes": 19498,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.webp",
+     "bytes": 17282,
+     "shared": false
+    },
+    {
+     "path": "assets/locale/en/commonContent.json",
+     "bytes": 14865,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/commonGameRules.css",
+     "bytes": 14077,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.json",
+     "bytes": 9577,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/devUtils/cheatTool.css",
+     "bytes": 7915,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/brandLogo.png",
+     "bytes": 7519,
+     "shared": false
+    },
+    {
+     "path": "assets/index-canvas-_ynnR-4e.js",
+     "bytes": 7221,
+     "shared": true
+    },
+    {
+     "path": "assets/images/loader.webp",
+     "bytes": 4038,
+     "shared": false
+    },
+    {
+     "path": "assets/locale/en/gameContent.json",
+     "bytes": 3918,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/footer.css",
+     "bytes": 2748,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/common.css",
+     "bytes": 2213,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.atlas",
+     "bytes": 1761,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.json",
+     "bytes": 1633,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/gameRules.css",
+     "bytes": 1326,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.json",
+     "bytes": 1135,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.json",
+     "bytes": 520,
+     "shared": true
+    }
+   ]
+  },
+  {
+   "slug": "lucky-streak-3",
+   "name": "Lucky Streak 3",
+   "provider": "Endorphina",
+   "symbol": "\u26a1",
+   "gradient": "#d017ca,#3d0c3c",
+   "bundleVersion": "f26e3b81bb7e980d",
+   "popularity": 0.467,
+   "slice": [
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.png",
+     "bytes": 2203131,
+     "shared": false
+    },
+    {
+     "path": "assets/vendor-pixi-C8WzrnZv.js",
+     "bytes": 1292928,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim_2.png",
+     "bytes": 1025891,
+     "shared": false
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.webp",
+     "bytes": 486630,
+     "shared": false
+    },
+    {
+     "path": "assets/core-engine-DXW-O-mj.js",
+     "bytes": 389215,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.jpg",
+     "bytes": 216325,
+     "shared": false
+    },
+    {
+     "path": "assets/fonts/en/Mulish.ttf",
+     "bytes": 210380,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/NewRocker-Regular.ttf",
+     "bytes": 168128,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/Oswald-Bold.ttf",
+     "bytes": 87600,
+     "shared": true
+    },
+    {
+     "path": "assets/game-empireofgold-CK6MbOiD.js",
+     "bytes": 45679,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/history.css",
+     "bytes": 19498,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.webp",
+     "bytes": 17320,
+     "shared": false
+    },
+    {
+     "path": "assets/locale/en/commonContent.json",
+     "bytes": 14865,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/commonGameRules.css",
+     "bytes": 14077,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.json",
+     "bytes": 9577,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/devUtils/cheatTool.css",
+     "bytes": 7915,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/brandLogo.png",
+     "bytes": 7466,
+     "shared": false
+    },
+    {
+     "path": "assets/index-canvas-_ynnR-4e.js",
+     "bytes": 7221,
+     "shared": true
+    },
+    {
+     "path": "assets/images/loader.webp",
+     "bytes": 3998,
+     "shared": false
+    },
+    {
+     "path": "assets/locale/en/gameContent.json",
+     "bytes": 3923,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/footer.css",
+     "bytes": 2748,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/common.css",
+     "bytes": 2213,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.atlas",
+     "bytes": 1761,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.json",
+     "bytes": 1633,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/gameRules.css",
+     "bytes": 1326,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.json",
+     "bytes": 1135,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.json",
+     "bytes": 520,
+     "shared": true
+    }
+   ]
+  },
+  {
+   "slug": "mystery-joker",
+   "name": "Mystery Joker",
+   "provider": "Play'n GO",
+   "symbol": "\u265e",
+   "gradient": "#6849d0,#22193d",
+   "bundleVersion": "df35358183ea71c1",
+   "popularity": 0.433,
+   "slice": [
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.png",
+     "bytes": 2213838,
+     "shared": false
+    },
+    {
+     "path": "assets/vendor-pixi-C8WzrnZv.js",
+     "bytes": 1292928,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim_2.png",
+     "bytes": 1026770,
+     "shared": false
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.webp",
+     "bytes": 489842,
+     "shared": false
+    },
+    {
+     "path": "assets/core-engine-DXW-O-mj.js",
+     "bytes": 389215,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.jpg",
+     "bytes": 223391,
+     "shared": false
+    },
+    {
+     "path": "assets/fonts/en/Mulish.ttf",
+     "bytes": 210380,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/NewRocker-Regular.ttf",
+     "bytes": 168128,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/Oswald-Bold.ttf",
+     "bytes": 87600,
+     "shared": true
+    },
+    {
+     "path": "assets/game-empireofgold-CK6MbOiD.js",
+     "bytes": 45678,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/history.css",
+     "bytes": 19498,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.webp",
+     "bytes": 16416,
+     "shared": false
+    },
+    {
+     "path": "assets/locale/en/commonContent.json",
+     "bytes": 14865,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/commonGameRules.css",
+     "bytes": 14077,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.json",
+     "bytes": 9577,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/devUtils/cheatTool.css",
+     "bytes": 7915,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/brandLogo.png",
+     "bytes": 7807,
+     "shared": false
+    },
+    {
+     "path": "assets/index-canvas-_ynnR-4e.js",
+     "bytes": 7221,
+     "shared": true
+    },
+    {
+     "path": "assets/locale/en/gameContent.json",
+     "bytes": 3922,
+     "shared": false
+    },
+    {
+     "path": "assets/images/loader.webp",
+     "bytes": 3602,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/footer.css",
+     "bytes": 2748,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/common.css",
+     "bytes": 2213,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.atlas",
+     "bytes": 1761,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.json",
+     "bytes": 1633,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/gameRules.css",
+     "bytes": 1326,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.json",
+     "bytes": 1135,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.json",
+     "bytes": 520,
+     "shared": true
+    }
+   ]
+  },
+  {
+   "slug": "book-of-sun",
+   "name": "Book of Sun",
+   "provider": "Greentube",
+   "symbol": "\u2600",
+   "gradient": "#a66b06,#312106",
+   "bundleVersion": "6d6754995ff15a41",
+   "popularity": 0.4,
+   "slice": [
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.png",
+     "bytes": 2114107,
+     "shared": false
+    },
+    {
+     "path": "assets/vendor-pixi-C8WzrnZv.js",
+     "bytes": 1292928,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim_2.png",
+     "bytes": 987510,
+     "shared": false
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.webp",
+     "bytes": 492764,
+     "shared": false
+    },
+    {
+     "path": "assets/core-engine-DXW-O-mj.js",
+     "bytes": 389215,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.jpg",
+     "bytes": 211461,
+     "shared": false
+    },
+    {
+     "path": "assets/fonts/en/Mulish.ttf",
+     "bytes": 210380,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/NewRocker-Regular.ttf",
+     "bytes": 168128,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/Oswald-Bold.ttf",
+     "bytes": 87600,
+     "shared": true
+    },
+    {
+     "path": "assets/game-empireofgold-CK6MbOiD.js",
+     "bytes": 45676,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/history.css",
+     "bytes": 19498,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.webp",
+     "bytes": 17390,
+     "shared": false
+    },
+    {
+     "path": "assets/locale/en/commonContent.json",
+     "bytes": 14865,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/commonGameRules.css",
+     "bytes": 14077,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.json",
+     "bytes": 9577,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/devUtils/cheatTool.css",
+     "bytes": 7915,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/brandLogo.png",
+     "bytes": 7459,
+     "shared": false
+    },
+    {
+     "path": "assets/index-canvas-_ynnR-4e.js",
+     "bytes": 7221,
+     "shared": true
+    },
+    {
+     "path": "assets/images/loader.webp",
+     "bytes": 4118,
+     "shared": false
+    },
+    {
+     "path": "assets/locale/en/gameContent.json",
+     "bytes": 3920,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/footer.css",
+     "bytes": 2748,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/common.css",
+     "bytes": 2213,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.atlas",
+     "bytes": 1761,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.json",
+     "bytes": 1633,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/gameRules.css",
+     "bytes": 1326,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.json",
+     "bytes": 1135,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.json",
+     "bytes": 520,
+     "shared": true
+    }
+   ]
+  },
+  {
+   "slug": "lumberjack-2",
+   "name": "Lumberjack 2",
+   "provider": "Tech4Bet",
+   "symbol": "\u26cf",
+   "gradient": "#1c914f,#0c2b19",
+   "bundleVersion": "8ab8897dc7abf065",
+   "popularity": 0.367,
+   "slice": [
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.png",
+     "bytes": 2184677,
+     "shared": false
+    },
+    {
+     "path": "assets/vendor-pixi-C8WzrnZv.js",
+     "bytes": 1292928,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim_2.png",
+     "bytes": 1018844,
+     "shared": false
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.webp",
+     "bytes": 488218,
+     "shared": false
+    },
+    {
+     "path": "assets/core-engine-DXW-O-mj.js",
+     "bytes": 389215,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.jpg",
+     "bytes": 215027,
+     "shared": false
+    },
+    {
+     "path": "assets/fonts/en/Mulish.ttf",
+     "bytes": 210380,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/NewRocker-Regular.ttf",
+     "bytes": 168128,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/Oswald-Bold.ttf",
+     "bytes": 87600,
+     "shared": true
+    },
+    {
+     "path": "assets/game-empireofgold-CK6MbOiD.js",
+     "bytes": 45677,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/history.css",
+     "bytes": 19498,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.webp",
+     "bytes": 17252,
+     "shared": false
+    },
+    {
+     "path": "assets/locale/en/commonContent.json",
+     "bytes": 14865,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/commonGameRules.css",
+     "bytes": 14077,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.json",
+     "bytes": 9577,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/devUtils/cheatTool.css",
+     "bytes": 7915,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/brandLogo.png",
+     "bytes": 7622,
+     "shared": false
+    },
+    {
+     "path": "assets/index-canvas-_ynnR-4e.js",
+     "bytes": 7221,
+     "shared": true
+    },
+    {
+     "path": "assets/images/loader.webp",
+     "bytes": 4238,
+     "shared": false
+    },
+    {
+     "path": "assets/locale/en/gameContent.json",
+     "bytes": 3921,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/footer.css",
+     "bytes": 2748,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/common.css",
+     "bytes": 2213,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.atlas",
+     "bytes": 1761,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.json",
+     "bytes": 1633,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/gameRules.css",
+     "bytes": 1326,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.json",
+     "bytes": 1135,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.json",
+     "bytes": 520,
+     "shared": true
+    }
+   ]
+  },
+  {
+   "slug": "cougar-blitz",
+   "name": "Cougar Blitz",
+   "provider": "Playtech",
+   "symbol": "\u25b2",
+   "gradient": "#bb6624,#37200f",
+   "bundleVersion": "758062ae62bd58c5",
+   "popularity": 0.333,
+   "slice": [
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.png",
+     "bytes": 2220082,
+     "shared": false
+    },
+    {
+     "path": "assets/vendor-pixi-C8WzrnZv.js",
+     "bytes": 1292928,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim_2.png",
+     "bytes": 1031214,
+     "shared": false
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.webp",
+     "bytes": 492074,
+     "shared": false
+    },
+    {
+     "path": "assets/core-engine-DXW-O-mj.js",
+     "bytes": 389215,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.jpg",
+     "bytes": 213586,
+     "shared": false
+    },
+    {
+     "path": "assets/fonts/en/Mulish.ttf",
+     "bytes": 210380,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/NewRocker-Regular.ttf",
+     "bytes": 168128,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/Oswald-Bold.ttf",
+     "bytes": 87600,
+     "shared": true
+    },
+    {
+     "path": "assets/game-empireofgold-CK6MbOiD.js",
+     "bytes": 45677,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/history.css",
+     "bytes": 19498,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.webp",
+     "bytes": 17420,
+     "shared": false
+    },
+    {
+     "path": "assets/locale/en/commonContent.json",
+     "bytes": 14865,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/commonGameRules.css",
+     "bytes": 14077,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.json",
+     "bytes": 9577,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/devUtils/cheatTool.css",
+     "bytes": 7915,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/brandLogo.png",
+     "bytes": 7538,
+     "shared": false
+    },
+    {
+     "path": "assets/index-canvas-_ynnR-4e.js",
+     "bytes": 7221,
+     "shared": true
+    },
+    {
+     "path": "assets/images/loader.webp",
+     "bytes": 4066,
+     "shared": false
+    },
+    {
+     "path": "assets/locale/en/gameContent.json",
+     "bytes": 3921,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/footer.css",
+     "bytes": 2748,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/common.css",
+     "bytes": 2213,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.atlas",
+     "bytes": 1761,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.json",
+     "bytes": 1633,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/gameRules.css",
+     "bytes": 1326,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.json",
+     "bytes": 1135,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.json",
+     "bytes": 520,
+     "shared": true
+    }
+   ]
+  },
+  {
+   "slug": "15-diamonds",
+   "name": "15 Diamonds",
+   "provider": "Playtech",
+   "symbol": "\u25c6",
+   "gradient": "#337b91,#12252b",
+   "bundleVersion": "45729938c6be7486",
+   "popularity": 0.3,
+   "slice": [
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.png",
+     "bytes": 2195479,
+     "shared": false
+    },
+    {
+     "path": "assets/vendor-pixi-C8WzrnZv.js",
+     "bytes": 1292928,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim_2.png",
+     "bytes": 1024243,
+     "shared": false
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.webp",
+     "bytes": 495274,
+     "shared": false
+    },
+    {
+     "path": "assets/core-engine-DXW-O-mj.js",
+     "bytes": 389215,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.jpg",
+     "bytes": 218510,
+     "shared": false
+    },
+    {
+     "path": "assets/fonts/en/Mulish.ttf",
+     "bytes": 210380,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/NewRocker-Regular.ttf",
+     "bytes": 168128,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/Oswald-Bold.ttf",
+     "bytes": 87600,
+     "shared": true
+    },
+    {
+     "path": "assets/game-empireofgold-CK6MbOiD.js",
+     "bytes": 45676,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/history.css",
+     "bytes": 19498,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.webp",
+     "bytes": 17488,
+     "shared": false
+    },
+    {
+     "path": "assets/locale/en/commonContent.json",
+     "bytes": 14865,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/commonGameRules.css",
+     "bytes": 14077,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.json",
+     "bytes": 9577,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/devUtils/cheatTool.css",
+     "bytes": 7915,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/brandLogo.png",
+     "bytes": 7725,
+     "shared": false
+    },
+    {
+     "path": "assets/index-canvas-_ynnR-4e.js",
+     "bytes": 7221,
+     "shared": true
+    },
+    {
+     "path": "assets/images/loader.webp",
+     "bytes": 4400,
+     "shared": false
+    },
+    {
+     "path": "assets/locale/en/gameContent.json",
+     "bytes": 3920,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/footer.css",
+     "bytes": 2748,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/common.css",
+     "bytes": 2213,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.atlas",
+     "bytes": 1761,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.json",
+     "bytes": 1633,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/gameRules.css",
+     "bytes": 1326,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.json",
+     "bytes": 1135,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.json",
+     "bytes": 520,
+     "shared": true
+    }
+   ]
+  },
+  {
+   "slug": "king-rhino",
+   "name": "King Rhino",
+   "provider": "Tech4Bet",
+   "symbol": "\u265c",
+   "gradient": "#2d41a6,#111631",
+   "bundleVersion": "1ca1d30351d444e6",
+   "popularity": 0.267,
+   "slice": [
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.png",
+     "bytes": 2183442,
+     "shared": false
+    },
+    {
+     "path": "assets/vendor-pixi-C8WzrnZv.js",
+     "bytes": 1292928,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim_2.png",
+     "bytes": 1012772,
+     "shared": false
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.webp",
+     "bytes": 492442,
+     "shared": false
+    },
+    {
+     "path": "assets/core-engine-DXW-O-mj.js",
+     "bytes": 389215,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.jpg",
+     "bytes": 218925,
+     "shared": false
+    },
+    {
+     "path": "assets/fonts/en/Mulish.ttf",
+     "bytes": 210380,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/NewRocker-Regular.ttf",
+     "bytes": 168128,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/Oswald-Bold.ttf",
+     "bytes": 87600,
+     "shared": true
+    },
+    {
+     "path": "assets/game-empireofgold-CK6MbOiD.js",
+     "bytes": 45675,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/history.css",
+     "bytes": 19498,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.webp",
+     "bytes": 17078,
+     "shared": false
+    },
+    {
+     "path": "assets/locale/en/commonContent.json",
+     "bytes": 14865,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/commonGameRules.css",
+     "bytes": 14077,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.json",
+     "bytes": 9577,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/devUtils/cheatTool.css",
+     "bytes": 7915,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/brandLogo.png",
+     "bytes": 7517,
+     "shared": false
+    },
+    {
+     "path": "assets/index-canvas-_ynnR-4e.js",
+     "bytes": 7221,
+     "shared": true
+    },
+    {
+     "path": "assets/images/loader.webp",
+     "bytes": 4062,
+     "shared": false
+    },
+    {
+     "path": "assets/locale/en/gameContent.json",
+     "bytes": 3919,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/footer.css",
+     "bytes": 2748,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/common.css",
+     "bytes": 2213,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.atlas",
+     "bytes": 1761,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.json",
+     "bytes": 1633,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/gameRules.css",
+     "bytes": 1326,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.json",
+     "bytes": 1135,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.json",
+     "bytes": 520,
+     "shared": true
+    }
+   ]
+  },
+  {
+   "slug": "cairo-dice",
+   "name": "Cairo Dice",
+   "provider": "Amusnet",
+   "symbol": "\u2680",
+   "gradient": "#389105,#132b05",
+   "bundleVersion": "7884abb7307433a9",
+   "popularity": 0.233,
+   "slice": [
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.png",
+     "bytes": 2087742,
+     "shared": false
+    },
+    {
+     "path": "assets/vendor-pixi-C8WzrnZv.js",
+     "bytes": 1292928,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim_2.png",
+     "bytes": 975664,
+     "shared": false
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.webp",
+     "bytes": 500058,
+     "shared": false
+    },
+    {
+     "path": "assets/core-engine-DXW-O-mj.js",
+     "bytes": 389215,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.jpg",
+     "bytes": 221455,
+     "shared": false
+    },
+    {
+     "path": "assets/fonts/en/Mulish.ttf",
+     "bytes": 210380,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/NewRocker-Regular.ttf",
+     "bytes": 168128,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/Oswald-Bold.ttf",
+     "bytes": 87600,
+     "shared": true
+    },
+    {
+     "path": "assets/game-empireofgold-CK6MbOiD.js",
+     "bytes": 45675,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/history.css",
+     "bytes": 19498,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.webp",
+     "bytes": 17340,
+     "shared": false
+    },
+    {
+     "path": "assets/locale/en/commonContent.json",
+     "bytes": 14865,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/commonGameRules.css",
+     "bytes": 14077,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.json",
+     "bytes": 9577,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/devUtils/cheatTool.css",
+     "bytes": 7915,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/brandLogo.png",
+     "bytes": 7505,
+     "shared": false
+    },
+    {
+     "path": "assets/index-canvas-_ynnR-4e.js",
+     "bytes": 7221,
+     "shared": true
+    },
+    {
+     "path": "assets/images/loader.webp",
+     "bytes": 4290,
+     "shared": false
+    },
+    {
+     "path": "assets/locale/en/gameContent.json",
+     "bytes": 3919,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/footer.css",
+     "bytes": 2748,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/common.css",
+     "bytes": 2213,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.atlas",
+     "bytes": 1761,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.json",
+     "bytes": 1633,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/gameRules.css",
+     "bytes": 1326,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.json",
+     "bytes": 1135,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.json",
+     "bytes": 520,
+     "shared": true
+    }
+   ]
+  },
+  {
+   "slug": "100-bulky-dice",
+   "name": "100 Bulky Dice",
+   "provider": "Amusnet",
+   "symbol": "\u2684",
+   "gradient": "#911510,#2b0a08",
+   "bundleVersion": "1a004e3ccfe842aa",
+   "popularity": 0.2,
+   "slice": [
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.png",
+     "bytes": 2136402,
+     "shared": false
+    },
+    {
+     "path": "assets/vendor-pixi-C8WzrnZv.js",
+     "bytes": 1292928,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim_2.png",
+     "bytes": 990433,
+     "shared": false
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.webp",
+     "bytes": 483922,
+     "shared": false
+    },
+    {
+     "path": "assets/core-engine-DXW-O-mj.js",
+     "bytes": 389215,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.jpg",
+     "bytes": 215019,
+     "shared": false
+    },
+    {
+     "path": "assets/fonts/en/Mulish.ttf",
+     "bytes": 210380,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/NewRocker-Regular.ttf",
+     "bytes": 168128,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/Oswald-Bold.ttf",
+     "bytes": 87600,
+     "shared": true
+    },
+    {
+     "path": "assets/game-empireofgold-CK6MbOiD.js",
+     "bytes": 45679,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/history.css",
+     "bytes": 19498,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.webp",
+     "bytes": 16850,
+     "shared": false
+    },
+    {
+     "path": "assets/locale/en/commonContent.json",
+     "bytes": 14865,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/commonGameRules.css",
+     "bytes": 14077,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.json",
+     "bytes": 9577,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/devUtils/cheatTool.css",
+     "bytes": 7915,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/brandLogo.png",
+     "bytes": 7494,
+     "shared": false
+    },
+    {
+     "path": "assets/index-canvas-_ynnR-4e.js",
+     "bytes": 7221,
+     "shared": true
+    },
+    {
+     "path": "assets/locale/en/gameContent.json",
+     "bytes": 3923,
+     "shared": false
+    },
+    {
+     "path": "assets/images/loader.webp",
+     "bytes": 3800,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/footer.css",
+     "bytes": 2748,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/common.css",
+     "bytes": 2213,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.atlas",
+     "bytes": 1761,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.json",
+     "bytes": 1633,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/gameRules.css",
+     "bytes": 1326,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.json",
+     "bytes": 1135,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.json",
+     "bytes": 520,
+     "shared": true
+    }
+   ]
+  },
+  {
+   "slug": "jungle-roulette",
+   "name": "Jungle Roulette",
+   "provider": "Tech4Bet",
+   "symbol": "\u25cd",
+   "gradient": "#33bba5,#133731",
+   "bundleVersion": "bce26127c14decab",
+   "popularity": 0.167,
+   "slice": [
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.png",
+     "bytes": 2225397,
+     "shared": false
+    },
+    {
+     "path": "assets/vendor-pixi-C8WzrnZv.js",
+     "bytes": 1292928,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim_2.png",
+     "bytes": 1032532,
+     "shared": false
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.webp",
+     "bytes": 484314,
+     "shared": false
+    },
+    {
+     "path": "assets/core-engine-DXW-O-mj.js",
+     "bytes": 389215,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.jpg",
+     "bytes": 213318,
+     "shared": false
+    },
+    {
+     "path": "assets/fonts/en/Mulish.ttf",
+     "bytes": 210380,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/NewRocker-Regular.ttf",
+     "bytes": 168128,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/Oswald-Bold.ttf",
+     "bytes": 87600,
+     "shared": true
+    },
+    {
+     "path": "assets/game-empireofgold-CK6MbOiD.js",
+     "bytes": 45680,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/history.css",
+     "bytes": 19498,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.webp",
+     "bytes": 16874,
+     "shared": false
+    },
+    {
+     "path": "assets/locale/en/commonContent.json",
+     "bytes": 14865,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/commonGameRules.css",
+     "bytes": 14077,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.json",
+     "bytes": 9577,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/devUtils/cheatTool.css",
+     "bytes": 7915,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/brandLogo.png",
+     "bytes": 7577,
+     "shared": false
+    },
+    {
+     "path": "assets/index-canvas-_ynnR-4e.js",
+     "bytes": 7221,
+     "shared": true
+    },
+    {
+     "path": "assets/locale/en/gameContent.json",
+     "bytes": 3924,
+     "shared": false
+    },
+    {
+     "path": "assets/images/loader.webp",
+     "bytes": 3732,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/footer.css",
+     "bytes": 2748,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/common.css",
+     "bytes": 2213,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.atlas",
+     "bytes": 1761,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.json",
+     "bytes": 1633,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/gameRules.css",
+     "bytes": 1326,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.json",
+     "bytes": 1135,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.json",
+     "bytes": 520,
+     "shared": true
+    }
+   ]
+  },
+  {
+   "slug": "juicy-melons",
+   "name": "Juicy Melons",
+   "provider": "Tech4Bet",
+   "symbol": "\u273f",
+   "gradient": "#6b06a6,#210631",
+   "bundleVersion": "3fe11f944b0ed9c3",
+   "popularity": 0.133,
+   "slice": [
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.png",
+     "bytes": 2100668,
+     "shared": false
+    },
+    {
+     "path": "assets/vendor-pixi-C8WzrnZv.js",
+     "bytes": 1292928,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim_2.png",
+     "bytes": 979673,
+     "shared": false
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.webp",
+     "bytes": 479220,
+     "shared": false
+    },
+    {
+     "path": "assets/core-engine-DXW-O-mj.js",
+     "bytes": 389215,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.jpg",
+     "bytes": 217580,
+     "shared": false
+    },
+    {
+     "path": "assets/fonts/en/Mulish.ttf",
+     "bytes": 210380,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/NewRocker-Regular.ttf",
+     "bytes": 168128,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/Oswald-Bold.ttf",
+     "bytes": 87600,
+     "shared": true
+    },
+    {
+     "path": "assets/game-empireofgold-CK6MbOiD.js",
+     "bytes": 45677,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/history.css",
+     "bytes": 19498,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.webp",
+     "bytes": 16904,
+     "shared": false
+    },
+    {
+     "path": "assets/locale/en/commonContent.json",
+     "bytes": 14865,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/commonGameRules.css",
+     "bytes": 14077,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.json",
+     "bytes": 9577,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/devUtils/cheatTool.css",
+     "bytes": 7915,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/brandLogo.png",
+     "bytes": 7462,
+     "shared": false
+    },
+    {
+     "path": "assets/index-canvas-_ynnR-4e.js",
+     "bytes": 7221,
+     "shared": true
+    },
+    {
+     "path": "assets/locale/en/gameContent.json",
+     "bytes": 3921,
+     "shared": false
+    },
+    {
+     "path": "assets/images/loader.webp",
+     "bytes": 3762,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/footer.css",
+     "bytes": 2748,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/common.css",
+     "bytes": 2213,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.atlas",
+     "bytes": 1761,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.json",
+     "bytes": 1633,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/gameRules.css",
+     "bytes": 1326,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.json",
+     "bytes": 1135,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.json",
+     "bytes": 520,
+     "shared": true
+    }
+   ]
+  },
+  {
+   "slug": "monkey-27",
+   "name": "Monkey 27",
+   "provider": "Tom Horn",
+   "symbol": "27",
+   "gradient": "#9fbb41,#303717",
+   "bundleVersion": "429785979f0a2893",
+   "popularity": 0.1,
+   "slice": [
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.png",
+     "bytes": 2230257,
+     "shared": false
+    },
+    {
+     "path": "assets/vendor-pixi-C8WzrnZv.js",
+     "bytes": 1292928,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim_2.png",
+     "bytes": 1041157,
+     "shared": false
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.webp",
+     "bytes": 491546,
+     "shared": false
+    },
+    {
+     "path": "assets/core-engine-DXW-O-mj.js",
+     "bytes": 389215,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.jpg",
+     "bytes": 221050,
+     "shared": false
+    },
+    {
+     "path": "assets/fonts/en/Mulish.ttf",
+     "bytes": 210380,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/NewRocker-Regular.ttf",
+     "bytes": 168128,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/Oswald-Bold.ttf",
+     "bytes": 87600,
+     "shared": true
+    },
+    {
+     "path": "assets/game-empireofgold-CK6MbOiD.js",
+     "bytes": 45674,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/history.css",
+     "bytes": 19498,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.webp",
+     "bytes": 17202,
+     "shared": false
+    },
+    {
+     "path": "assets/locale/en/commonContent.json",
+     "bytes": 14865,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/commonGameRules.css",
+     "bytes": 14077,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.json",
+     "bytes": 9577,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/devUtils/cheatTool.css",
+     "bytes": 7915,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/brandLogo.png",
+     "bytes": 7766,
+     "shared": false
+    },
+    {
+     "path": "assets/index-canvas-_ynnR-4e.js",
+     "bytes": 7221,
+     "shared": true
+    },
+    {
+     "path": "assets/images/loader.webp",
+     "bytes": 4210,
+     "shared": false
+    },
+    {
+     "path": "assets/locale/en/gameContent.json",
+     "bytes": 3918,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/footer.css",
+     "bytes": 2748,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/common.css",
+     "bytes": 2213,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.atlas",
+     "bytes": 1761,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.json",
+     "bytes": 1633,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/gameRules.css",
+     "bytes": 1326,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.json",
+     "bytes": 1135,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.json",
+     "bytes": 520,
+     "shared": true
+    }
+   ]
+  },
+  {
+   "slug": "savannah-king",
+   "name": "Savannah King",
+   "provider": "Tom Horn",
+   "symbol": "\u264c",
+   "gradient": "#cad017,#3c3d0c",
+   "bundleVersion": "debb6cb8d851bf57",
+   "popularity": 0.067,
+   "slice": [
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.png",
+     "bytes": 2201709,
+     "shared": false
+    },
+    {
+     "path": "assets/vendor-pixi-C8WzrnZv.js",
+     "bytes": 1292928,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim_2.png",
+     "bytes": 1024931,
+     "shared": false
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.webp",
+     "bytes": 494534,
+     "shared": false
+    },
+    {
+     "path": "assets/core-engine-DXW-O-mj.js",
+     "bytes": 389215,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.jpg",
+     "bytes": 221032,
+     "shared": false
+    },
+    {
+     "path": "assets/fonts/en/Mulish.ttf",
+     "bytes": 210380,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/NewRocker-Regular.ttf",
+     "bytes": 168128,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/Oswald-Bold.ttf",
+     "bytes": 87600,
+     "shared": true
+    },
+    {
+     "path": "assets/game-empireofgold-CK6MbOiD.js",
+     "bytes": 45678,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/history.css",
+     "bytes": 19498,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.webp",
+     "bytes": 17378,
+     "shared": false
+    },
+    {
+     "path": "assets/locale/en/commonContent.json",
+     "bytes": 14865,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/commonGameRules.css",
+     "bytes": 14077,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.json",
+     "bytes": 9577,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/devUtils/cheatTool.css",
+     "bytes": 7915,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/brandLogo.png",
+     "bytes": 7464,
+     "shared": false
+    },
+    {
+     "path": "assets/index-canvas-_ynnR-4e.js",
+     "bytes": 7221,
+     "shared": true
+    },
+    {
+     "path": "assets/images/loader.webp",
+     "bytes": 4234,
+     "shared": false
+    },
+    {
+     "path": "assets/locale/en/gameContent.json",
+     "bytes": 3922,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/footer.css",
+     "bytes": 2748,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/common.css",
+     "bytes": 2213,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.atlas",
+     "bytes": 1761,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.json",
+     "bytes": 1633,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/gameRules.css",
+     "bytes": 1326,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.json",
+     "bytes": 1135,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.json",
+     "bytes": 520,
+     "shared": true
+    }
+   ]
+  },
+  {
+   "slug": "gold-gobblers",
+   "name": "Gold Gobblers",
+   "provider": "Oryx",
+   "symbol": "\u26c3",
+   "gradient": "#3aa653,#14311b",
+   "bundleVersion": "65351b1ad4b19fd3",
+   "popularity": 0.05,
+   "slice": [
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.png",
+     "bytes": 2198823,
+     "shared": false
+    },
+    {
+     "path": "assets/vendor-pixi-C8WzrnZv.js",
+     "bytes": 1292928,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim_2.png",
+     "bytes": 1021203,
+     "shared": false
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.webp",
+     "bytes": 494380,
+     "shared": false
+    },
+    {
+     "path": "assets/core-engine-DXW-O-mj.js",
+     "bytes": 389215,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.jpg",
+     "bytes": 215477,
+     "shared": false
+    },
+    {
+     "path": "assets/fonts/en/Mulish.ttf",
+     "bytes": 210380,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/NewRocker-Regular.ttf",
+     "bytes": 168128,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/Oswald-Bold.ttf",
+     "bytes": 87600,
+     "shared": true
+    },
+    {
+     "path": "assets/game-empireofgold-CK6MbOiD.js",
+     "bytes": 45678,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/history.css",
+     "bytes": 19498,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.webp",
+     "bytes": 17386,
+     "shared": false
+    },
+    {
+     "path": "assets/locale/en/commonContent.json",
+     "bytes": 14865,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/commonGameRules.css",
+     "bytes": 14077,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.json",
+     "bytes": 9577,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/devUtils/cheatTool.css",
+     "bytes": 7915,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/brandLogo.png",
+     "bytes": 7854,
+     "shared": false
+    },
+    {
+     "path": "assets/index-canvas-_ynnR-4e.js",
+     "bytes": 7221,
+     "shared": true
+    },
+    {
+     "path": "assets/images/loader.webp",
+     "bytes": 4240,
+     "shared": false
+    },
+    {
+     "path": "assets/locale/en/gameContent.json",
+     "bytes": 3922,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/footer.css",
+     "bytes": 2748,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/common.css",
+     "bytes": 2213,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.atlas",
+     "bytes": 1761,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.json",
+     "bytes": 1633,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/gameRules.css",
+     "bytes": 1326,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.json",
+     "bytes": 1135,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.json",
+     "bytes": 520,
+     "shared": true
+    }
+   ]
+  },
+  {
+   "slug": "pandora-s-treasure",
+   "name": "Pandora's Treasure",
+   "provider": "NetEnt",
+   "symbol": "\u25c8",
+   "gradient": "#151091,#0a082b",
+   "bundleVersion": "69ac77a64ac842cf",
+   "popularity": 0.05,
+   "slice": [
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.png",
+     "bytes": 2123967,
+     "shared": false
+    },
+    {
+     "path": "assets/vendor-pixi-C8WzrnZv.js",
+     "bytes": 1292928,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim_2.png",
+     "bytes": 986371,
+     "shared": false
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.webp",
+     "bytes": 488198,
+     "shared": false
+    },
+    {
+     "path": "assets/core-engine-DXW-O-mj.js",
+     "bytes": 389215,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.jpg",
+     "bytes": 222626,
+     "shared": false
+    },
+    {
+     "path": "assets/fonts/en/Mulish.ttf",
+     "bytes": 210380,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/NewRocker-Regular.ttf",
+     "bytes": 168128,
+     "shared": true
+    },
+    {
+     "path": "assets/fonts/en/Oswald-Bold.ttf",
+     "bytes": 87600,
+     "shared": true
+    },
+    {
+     "path": "assets/game-empireofgold-CK6MbOiD.js",
+     "bytes": 45683,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/history.css",
+     "bytes": 19498,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.webp",
+     "bytes": 16664,
+     "shared": false
+    },
+    {
+     "path": "assets/locale/en/commonContent.json",
+     "bytes": 14865,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/commonGameRules.css",
+     "bytes": 14077,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.json",
+     "bytes": 9577,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/devUtils/cheatTool.css",
+     "bytes": 7915,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/brandLogo.png",
+     "bytes": 7505,
+     "shared": false
+    },
+    {
+     "path": "assets/index-canvas-_ynnR-4e.js",
+     "bytes": 7221,
+     "shared": true
+    },
+    {
+     "path": "assets/locale/en/gameContent.json",
+     "bytes": 3927,
+     "shared": false
+    },
+    {
+     "path": "assets/images/loader.webp",
+     "bytes": 3916,
+     "shared": false
+    },
+    {
+     "path": "assets/panel/css/footer.css",
+     "bytes": 2748,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/common.css",
+     "bytes": 2213,
+     "shared": true
+    },
+    {
+     "path": "assets/spines/@1x/EOG_Logo_Anim.atlas",
+     "bytes": 1761,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/controlPanelPrimaryAssets.json",
+     "bytes": 1633,
+     "shared": true
+    },
+    {
+     "path": "assets/panel/css/gameRules.css",
+     "bytes": 1326,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashAssets.json",
+     "bytes": 1135,
+     "shared": true
+    },
+    {
+     "path": "assets/images/@1x/splashBG.json",
+     "bytes": 520,
+     "shared": true
+    }
+   ]
+  }
+ ]
+}

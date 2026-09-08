@@ -1,8 +1,0 @@
-{
-  "$schema": "https://openapi.vercel.sh/vercel.json",
-  "framework": "nextjs",
-  "buildCommand": "cd ../.. && pnpm turbo run build --filter=@eog/web",
-  "installCommand": "cd ../.. && pnpm install --frozen-lockfile",
-  "regions": ["fra1"],
-  "crons": []
-}
