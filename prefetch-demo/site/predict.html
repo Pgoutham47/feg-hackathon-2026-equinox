@@ -1,0 +1,127 @@
+<!doctype html><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Prefetch policy — hit rate</title>
+<script src="/policy.js"></script>
+<style>
+  :root{color-scheme:dark}
+  body{background:#0b0b0d;color:#e9e9ec;font:14px/1.6 -apple-system,system-ui,sans-serif;margin:0;padding:18px;max-width:900px}
+  h1{font-size:18px;margin:0 0 4px} .sub{color:#83838c;font-size:12px;margin-bottom:16px}
+  table{border-collapse:collapse;width:100%;margin-bottom:20px;font-size:13px}
+  th,td{text-align:left;padding:7px 10px;border-bottom:1px solid #23232a;font-variant-numeric:tabular-nums}
+  th{color:#83838c;font-weight:500;font-size:11.5px;text-transform:uppercase;letter-spacing:.04em}
+  .bar{display:inline-block;height:9px;border-radius:2px;background:#4ade80;vertical-align:middle;margin-right:7px}
+  .bar.dim{background:#3f3f46}
+  .ours{color:#4ade80;font-weight:600}
+  h2{font-size:13px;text-transform:uppercase;letter-spacing:.04em;color:#83838c;margin:22px 0 8px}
+  .note{background:#141418;border:1px solid #26262c;border-radius:8px;padding:12px 14px;font-size:12.5px;color:#a8a8b0}
+  button{background:#26262e;color:#e9e9ec;border:1px solid #3a3a44;border-radius:8px;padding:8px 14px;font:inherit;cursor:pointer;margin-bottom:16px}
+</style>
+<h1>Does the prefetch policy actually guess right?</h1>
+<div class="sub">Same scoring code the live lobby runs (<code>policy.js</code>), replayed over simulated user sessions.</div>
+<button id="run">Re-run simulation</button>
+<div id="out">running…</div>
+
+<script>
+// deterministic RNG so the numbers are reproducible
+function rng(seed){ return () => { seed |= 0; seed = seed + 0x6D2B79F5 | 0;
+  let t = Math.imul(seed ^ seed >>> 15, 1 | seed);
+  t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t;
+  return ((t ^ t >>> 14) >>> 0) / 4294967296; }; }
+
+const CATALOG_N = 24, USERS = 400, SESSIONS = 8, SLICE_MB = 6.5;
+const DAY = 24*60*60*1000;
+
+// real lobbies are heavily skewed — a few games take most of the plays (Zipf)
+const popularity = Array.from({length: CATALOG_N}, (_, i) => 1 / Math.pow(i + 1, 1.1));
+const popSum = popularity.reduce((a,b)=>a+b,0);
+const games = Array.from({length: CATALOG_N}, (_, i) => ({id:i+1, name:'game'+(i+1)}));
+
+function weightedPick(r, weights){
+  let x = r() * weights.reduce((a,b)=>a+b,0);
+  for (let i=0;i<weights.length;i++){ x -= weights[i]; if (x<=0) return i; }
+  return weights.length-1;
+}
+
+// POLICIES ------------------------------------------------------------------
+const policies = {
+  'No prefetch':          () => [],
+  'Random guess':         (h, n, r) => [...games].sort(()=>r()-0.5).slice(0,n).map(g=>g.id),
+  'Most popular overall': (h, n) => games.slice(0,n).map(g=>g.id),
+  'Personal history': (h, n, r, now) => POLICY.pick(POLICY.rank(games, h, now), n*SLICE_MB, SLICE_MB).map(x=>x.id),
+  'Personal + sticky (ours)': (h, n, r, now, held) => POLICY.pick(POLICY.rank(games, h, now), n*SLICE_MB, SLICE_MB, held).map(x=>x.id),
+};
+
+function simulate(slots, seed){
+  const r = rng(seed);
+  const res = {};
+  for (const name of Object.keys(policies)) res[name] = {hits:0, taps:0, downloads:0, wasted:0};
+
+  for (let u = 0; u < USERS; u++) {
+    // each user has a few favourites, drawn from overall popularity
+    const favs = [];
+    while (favs.length < 3) { const g = weightedPick(r, popularity)+1; if (!favs.includes(g)) favs.push(g); }
+    const favW = [0.55, 0.28, 0.17];
+
+    const histories = {}, cached = {}, pending = {};
+    for (const n of Object.keys(policies)) { histories[n] = []; cached[n] = new Set(); pending[n] = new Set(); }
+    let now = Date.now() - SESSIONS*DAY;
+
+    for (let s = 0; s < SESSIONS; s++) {
+      now += DAY;
+      // what will this user tap this session? (decided independently of any policy)
+      const taps = [];
+      const nTaps = 1 + (r() < 0.35 ? 1 : 0);
+      for (let k = 0; k < nTaps; k++) {
+        // 78% of the time they return to a favourite; otherwise they browse
+        taps.push(r() < 0.78 ? favs[weightedPick(r, favW)] : weightedPick(r, popularity)+1);
+      }
+      for (const name of Object.keys(policies)) {
+        const chosen = new Set(policies[name](histories[name], slots, r, now, [...cached[name]]) || []);
+        // a game already on the device is NOT re-downloaded
+        for (const c of chosen) if (!cached[name].has(c)) { res[name].downloads++; pending[name].add(c); }
+        // anything dropped from the cache without ever being played was wasted bandwidth
+        for (const old of cached[name]) if (!chosen.has(old) && pending[name].has(old)) {
+          res[name].wasted++; pending[name].delete(old);
+        }
+        cached[name] = chosen;
+        for (const t of taps) {
+          res[name].taps++;
+          if (chosen.has(t)) { res[name].hits++; pending[name].delete(t); }   // download paid off
+        }
+        for (const t of taps) histories[name].push({id:t, t:now});
+      }
+    }
+    for (const name of Object.keys(policies)) res[name].wasted += pending[name].size;
+  }
+  return res;
+}
+
+function render(){
+  let html = '';
+  for (const slots of [1,2,3,4]) {
+    const res = simulate(slots, 12345 + slots);
+    html += `<h2>Storage budget: ${slots} slice${slots>1?'s':''} · ${(slots*SLICE_MB).toFixed(1)} MB per user</h2>`;
+    html += '<table><tr><th>Policy</th><th>Hit rate</th><th>Downloaded per user</th><th>Wasted (never played)</th></tr>';
+    for (const name of Object.keys(policies)) {
+      const d = res[name];
+      const hit = d.taps ? d.hits/d.taps*100 : 0;
+      const waste = d.wasted / USERS * SLICE_MB;              // MB downloaded and never played, per user
+      const dl = d.downloads / USERS * SLICE_MB;               // MB downloaded in total, per user
+      const ours = name.includes('ours');
+      html += `<tr><td class="${ours?'ours':''}">${name}</td>
+        <td><span class="bar ${ours?'':'dim'}" style="width:${Math.max(2,hit*1.6)}px"></span>${hit.toFixed(0)}%</td>
+        <td>${dl.toFixed(0)} MB</td><td>${waste.toFixed(0)} MB</td></tr>`;
+    }
+    html += '</table>';
+  }
+  html += `<div class="note"><b>How this is built.</b> ${USERS} simulated users, ${SESSIONS} sessions each, a ${CATALOG_N}-game
+    catalogue with Zipf-distributed popularity. Each user has 3 favourites and returns to one of them 78% of the time —
+    the "users settle into a small familiar set" behaviour your brief describes as the problem.
+    The ranking is computed by <code>policy.js</code>, the same file the live lobby loads.
+    <br><br><b>What it is not.</b> These are synthetic users, not your users. The 78% repeat rate and the popularity curve
+    are assumptions. Real logs would replace them — the simulation is the harness, not the answer.</div>`;
+  document.getElementById('out').innerHTML = html;
+}
+document.getElementById('run').onclick = render;
+render();
+</script>

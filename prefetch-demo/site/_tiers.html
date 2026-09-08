@@ -1,0 +1,126 @@
+<!doctype html><meta charset="utf-8">
+<title>Precache tiers — measured</title>
+<style>
+:root{color-scheme:dark}
+body{margin:0;background:#101014;color:#e8eaf0;font:13px/1.5 -apple-system,system-ui,sans-serif;padding:18px}
+h1{font-size:16px;margin:0 0 4px}
+.sub{color:#8b90a0;font-size:12px;margin-bottom:16px}
+table{border-collapse:collapse;width:100%;max-width:860px}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid #26262f;font-variant-numeric:tabular-nums}
+th{color:#8b90a0;font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:.4px}
+td.n{text-align:right}
+tr.run{background:#1a1a22}
+.tag{font-size:10px;color:#7a8090}
+.ok{color:#35c46a}.wait{color:#f5c02e}.dim{color:#5c6373}
+iframe{width:420px;height:280px;border:1px solid #26262f;border-radius:6px;margin-top:16px;background:#000}
+#log{margin-top:12px;color:#8b90a0;font-size:11.5px;white-space:pre-wrap;max-height:130px;overflow:auto}
+b.big{font-size:15px}
+</style>
+<h1>Precache tiers — what does each MB actually buy?</h1>
+<div class="sub">Runs every tier back to back on this machine and posts the numbers to /report. Leave the tab focused; roughly three minutes.</div>
+
+<table id="t"><thead><tr>
+<th>Tier</th><th class="n">Storage</th><th class="n">Play screen</th><th class="n">All visuals</th><th class="n">Everything</th><th>State</th>
+</tr></thead><tbody></tbody></table>
+<iframe id="f"></iframe>
+<div id="log"></div>
+
+<script>
+const TIERS = [
+  {key:'baseline',       name:'Baseline — no cache',      list:null,                    nocache:true},
+  {key:'slice',          name:'Slice',                    list:'/_slice.json'},
+  {key:'slice+visuals',  name:'Slice + win animations',   list:'/_slice_visuals.json'},
+  {key:'slice+audio',    name:'Slice + audio',            list:'/_slice_audio.json'},
+  {key:'full',           name:'Full bundle',              list:'/_assets.json'},
+];
+
+const $ = s => document.querySelector(s);
+const tbody = $('#t tbody');
+const rows = {};
+const log = m => { const l = $('#log'); l.textContent += m + '\n'; l.scrollTop = 1e9; };
+
+for (const t of TIERS) {
+  const tr = document.createElement('tr');
+  tr.innerHTML = `<td>${t.name}</td><td class="n dim">—</td><td class="n dim">—</td>
+                  <td class="n dim">—</td><td class="n dim">—</td><td class="tag dim">queued</td>`;
+  tbody.appendChild(tr); rows[t.key] = tr;
+}
+const set = (k, i, html, cls) => { const c = rows[k].children[i]; c.innerHTML = html; c.className = (i?'n ':'') + (cls||''); };
+
+const sw = () => navigator.serviceWorker.controller;
+function swAsk(msg, type, onProgress) {
+  return new Promise((res, rej) => {
+    const to = setTimeout(() => { navigator.serviceWorker.removeEventListener('message', h); rej(new Error('sw timeout: ' + type)); }, 180000);
+    function h(e) {
+      if (e.data?.type === 'progress' && onProgress) return onProgress(e.data);
+      if (e.data?.type !== type) return;
+      clearTimeout(to); navigator.serviceWorker.removeEventListener('message', h); res(e.data);
+    }
+    navigator.serviceWorker.addEventListener('message', h);
+    sw().postMessage(msg);
+  });
+}
+
+// one game load, resolved when the page reports it has stopped fetching
+function runGame(nocache) {
+  return new Promise((res, rej) => {
+    const to = setTimeout(() => { removeEventListener('message', h); rej(new Error('game timeout')); }, 120000);
+    let latest = null;
+    function h(e) {
+      const d = e.data || {};
+      if (!d.eog) return;
+      latest = d;
+      if (d.assetsDone) { clearTimeout(to); removeEventListener('message', h); res(d); }
+    }
+    addEventListener('message', h);
+    $('#f').src = (nocache ? '/nocache/_game.html?r=' : '/_game.html?r=') + Date.now();
+  });
+}
+
+(async () => {
+  try {
+    await navigator.serviceWorker.register('/sw.js');
+    await navigator.serviceWorker.ready;
+    if (!sw()) { location.reload(); return; }
+  } catch (err) {
+    log('Service worker unavailable: ' + err.message + ' — needs localhost or HTTPS, and a browser that allows it.');
+    return;
+  }
+
+  const out = {};
+  for (const t of TIERS) {
+    set(t.key, 5, 'preparing', 'tag wait');
+    await swAsk({type:'clear'}, 'cleared');
+
+    let stored = 0;
+    if (t.list) {
+      const urls = (await (await fetch(t.list)).json()).map(u => '/' + u.replace(/^\//, ''));
+      set(t.key, 5, 'precaching 0/' + urls.length, 'tag wait');
+      const done = await swAsk({type:'precache', urls}, 'precached',
+        p => set(t.key, 5, `precaching ${p.done}/${urls.length}`, 'tag wait'));
+      stored = done.stored;
+      set(t.key, 1, (stored/1048576).toFixed(1) + ' MB');
+    } else {
+      set(t.key, 1, '0 MB');
+    }
+
+    set(t.key, 5, 'loading game', 'tag wait');
+    rows[t.key].classList.add('run');
+    const d = await runGame(t.nocache);
+    rows[t.key].classList.remove('run');
+
+    const s = ms => ms == null ? '—' : (ms/1000).toFixed(2) + ' s';
+    set(t.key, 2, '<b class="big">' + s(d.splashReady) + '</b>');
+    set(t.key, 3, s(d.visualsReady));
+    set(t.key, 4, s(d.assetsDone));
+    set(t.key, 5, 'done', 'tag ok');
+
+    out[t.key] = {storedBytes: stored, play: d.splashReady, visuals: d.visualsReady, all: d.assetsDone};
+    log(`${t.name}: play ${s(d.splashReady)} · visuals ${s(d.visualsReady)} · stored ${(stored/1048576).toFixed(1)} MB`);
+  }
+
+  $('#f').src = 'about:blank';
+  fetch('/report', {method:'POST', body: JSON.stringify({tiers: out, at: new Date().toISOString()})});
+  log('\nAll tiers done — results posted to /report.');
+})().catch(e => log('FAILED: ' + e.message));
+</script>

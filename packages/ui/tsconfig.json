@@ -1,0 +1,1 @@
+{ "extends": "@eog/tsconfig/nextjs.json", "include": ["src"] }

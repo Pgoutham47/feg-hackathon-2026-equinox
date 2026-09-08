@@ -1,0 +1,24 @@
+name: deploy-api
+
+on:
+  push:
+    branches: [main]
+    paths: ['apps/api/**', '.github/workflows/deploy-api.yml']
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-api
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - uses: actions/checkout@v4
+      - uses: superfly/flyctl-actions/setup-flyctl@master
+      # fly.toml's release_command runs `alembic upgrade head` before the new
+      # machines take traffic, so migrations and code deploy atomically.
+      - run: flyctl deploy --remote-only --config apps/api/fly.toml
+        env:
+          FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}

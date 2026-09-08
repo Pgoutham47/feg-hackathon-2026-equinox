@@ -1,0 +1,417 @@
+[
+ {
+  "id": 1,
+  "slug": "multiplay-81",
+  "name": "Multiplay 81",
+  "provider": "E-Gaming",
+  "tag": "new",
+  "sym": "81",
+  "grad": "#91337b,#2b1225",
+  "skin": {
+   "hue": 314.0,
+   "sat": 0.62,
+   "val": 0.6
+  }
+ },
+ {
+  "id": 2,
+  "slug": "frozzy-fruits",
+  "name": "Frozzy Fruits",
+  "provider": "E-Gaming",
+  "tag": "new",
+  "sym": "❄",
+  "grad": "#2887d0,#102a3d",
+  "skin": {
+   "hue": 206.0,
+   "sat": 0.77,
+   "val": 0.86
+  }
+ },
+ {
+  "id": 3,
+  "slug": "hunter-s-dream-2",
+  "name": "Hunter's Dream 2",
+  "provider": "E-Gaming",
+  "sym": "♣",
+  "grad": "#d06849,#3d2219",
+  "skin": {
+   "hue": 14.0,
+   "sat": 0.62,
+   "val": 0.86
+  }
+ },
+ {
+  "id": 4,
+  "slug": "golden-fate-1000",
+  "name": "Golden Fate 1000",
+  "provider": "Pateplay",
+  "jackpot": 7019.41,
+  "sym": "☥",
+  "grad": "#6ca620,#21310d",
+  "skin": {
+   "hue": 86.0,
+   "sat": 0.77,
+   "val": 0.687
+  }
+ },
+ {
+  "id": 5,
+  "slug": "dynamite-splash-20",
+  "name": "Dynamite Splash 20",
+  "provider": "Pateplay",
+  "jackpot": 36821.59,
+  "sym": "✹",
+  "grad": "#a62d41,#311116",
+  "skin": {
+   "hue": 350.0,
+   "sat": 0.695,
+   "val": 0.687
+  }
+ },
+ {
+  "id": 6,
+  "slug": "5-burning-clover",
+  "name": "5 Burning Clover",
+  "provider": "EGT Digital",
+  "jackpot": 36831.99,
+  "sym": "♧",
+  "grad": "#07d087,#083d2a",
+  "skin": {
+   "hue": 158.0,
+   "sat": 0.92,
+   "val": 0.86
+  }
+ },
+ {
+  "id": 7,
+  "slug": "20-super-hot-bell",
+  "name": "20 Super Hot Bell",
+  "provider": "EGT Digital",
+  "jackpot": 264843.56,
+  "sym": "7",
+  "grad": "#802791,#260f2b",
+  "skin": {
+   "hue": 290.0,
+   "sat": 0.695,
+   "val": 0.6
+  }
+ },
+ {
+  "id": 8,
+  "slug": "fruit-force",
+  "name": "Fruit Force",
+  "provider": "Synot",
+  "jackpot": 2938.68,
+  "sym": "♦",
+  "grad": "#6624bb,#200f37",
+  "skin": {
+   "hue": 266.0,
+   "sat": 0.77,
+   "val": 0.773
+  }
+ },
+ {
+  "id": 9,
+  "slug": "diamonds-power",
+  "name": "Diamonds Power",
+  "provider": "Playson",
+  "jackpot": 12440.1,
+  "sym": "◆",
+  "grad": "#0649bb,#071937",
+  "skin": {
+   "hue": 218.0,
+   "sat": 0.92,
+   "val": 0.773
+  }
+ },
+ {
+  "id": 10,
+  "slug": "lucky-piggies-2",
+  "name": "Lucky Piggies 2",
+  "provider": "Amatic",
+  "sym": "★",
+  "grad": "#918027,#2b260f",
+  "skin": {
+   "hue": 50.0,
+   "sat": 0.695,
+   "val": 0.6
+  }
+ },
+ {
+  "id": 11,
+  "slug": "royal-coins-2",
+  "name": "Royal Coins 2",
+  "provider": "Playson",
+  "jackpot": 8811.02,
+  "sym": "♛",
+  "grad": "#15bb1b,#0b370c",
+  "skin": {
+   "hue": 122.0,
+   "sat": 0.845,
+   "val": 0.773
+  }
+ },
+ {
+  "id": 12,
+  "slug": "hot-fruits-20",
+  "name": "Hot Fruits 20",
+  "provider": "Amatic",
+  "sym": "✦",
+  "grad": "#d02887,#3d102a",
+  "skin": {
+   "hue": 326.0,
+   "sat": 0.77,
+   "val": 0.86
+  }
+ },
+ {
+  "id": 13,
+  "slug": "sizzling-hot-deluxe",
+  "name": "Sizzling Hot Deluxe",
+  "provider": "Greentube",
+  "sym": "7",
+  "grad": "#bb0649,#370719",
+  "skin": {
+   "hue": 338.0,
+   "sat": 0.92,
+   "val": 0.773
+  }
+ },
+ {
+  "id": 14,
+  "slug": "aurum-hot-40",
+  "name": "Aurum Hot 40",
+  "provider": "Fazi",
+  "tag": "excl",
+  "jackpot": 6968.38,
+  "sym": "♠",
+  "grad": "#52d038,#1c3d15",
+  "skin": {
+   "hue": 110.0,
+   "sat": 0.695,
+   "val": 0.86
+  }
+ },
+ {
+  "id": 15,
+  "slug": "reactoonz",
+  "name": "Reactoonz",
+  "provider": "Play'n GO",
+  "sym": "◉",
+  "grad": "#13a1a6,#0a3031",
+  "skin": {
+   "hue": 182.0,
+   "sat": 0.845,
+   "val": 0.687
+  }
+ },
+ {
+  "id": 16,
+  "slug": "lucky-streak-3",
+  "name": "Lucky Streak 3",
+  "provider": "Endorphina",
+  "sym": "⚡",
+  "grad": "#d017ca,#3d0c3c",
+  "skin": {
+   "hue": 302.0,
+   "sat": 0.845,
+   "val": 0.86
+  }
+ },
+ {
+  "id": 17,
+  "slug": "mystery-joker",
+  "name": "Mystery Joker",
+  "provider": "Play'n GO",
+  "jackpot": 264843.56,
+  "sym": "♞",
+  "grad": "#6849d0,#22193d",
+  "skin": {
+   "hue": 254.0,
+   "sat": 0.62,
+   "val": 0.86
+  }
+ },
+ {
+  "id": 18,
+  "slug": "book-of-sun",
+  "name": "Book of Sun",
+  "provider": "Greentube",
+  "sym": "☀",
+  "grad": "#a66b06,#312106",
+  "skin": {
+   "hue": 38.0,
+   "sat": 0.92,
+   "val": 0.687
+  }
+ },
+ {
+  "id": 19,
+  "slug": "lumberjack-2",
+  "name": "Lumberjack 2",
+  "provider": "Tech4Bet",
+  "jackpot": 69228.29,
+  "sym": "⛏",
+  "grad": "#1c914f,#0c2b19",
+  "skin": {
+   "hue": 146.0,
+   "sat": 0.77,
+   "val": 0.6
+  }
+ },
+ {
+  "id": 20,
+  "slug": "cougar-blitz",
+  "name": "Cougar Blitz",
+  "provider": "Playtech",
+  "tag": "today",
+  "sym": "▲",
+  "grad": "#bb6624,#37200f",
+  "skin": {
+   "hue": 26.0,
+   "sat": 0.77,
+   "val": 0.773
+  }
+ },
+ {
+  "id": 21,
+  "slug": "15-diamonds",
+  "name": "15 Diamonds",
+  "provider": "Playtech",
+  "tag": "new",
+  "jackpot": 15320.44,
+  "sym": "◆",
+  "grad": "#337b91,#12252b",
+  "skin": {
+   "hue": 194.0,
+   "sat": 0.62,
+   "val": 0.6
+  }
+ },
+ {
+  "id": 22,
+  "slug": "king-rhino",
+  "name": "King Rhino",
+  "provider": "Tech4Bet",
+  "tag": "new",
+  "jackpot": 69228.29,
+  "sym": "♜",
+  "grad": "#2d41a6,#111631",
+  "skin": {
+   "hue": 230.0,
+   "sat": 0.695,
+   "val": 0.687
+  }
+ },
+ {
+  "id": 23,
+  "slug": "cairo-dice",
+  "name": "Cairo Dice",
+  "provider": "Amusnet",
+  "tag": "new",
+  "jackpot": 94254.21,
+  "sym": "⚀",
+  "grad": "#389105,#132b05",
+  "skin": {
+   "hue": 98.0,
+   "sat": 0.92,
+   "val": 0.6
+  }
+ },
+ {
+  "id": 24,
+  "slug": "100-bulky-dice",
+  "name": "100 Bulky Dice",
+  "provider": "Amusnet",
+  "jackpot": 94254.21,
+  "sym": "⚄",
+  "grad": "#911510,#2b0a08",
+  "skin": {
+   "hue": 2.0,
+   "sat": 0.845,
+   "val": 0.6
+  }
+ },
+ {
+  "id": 25,
+  "slug": "jungle-roulette",
+  "name": "Jungle Roulette",
+  "provider": "Tech4Bet",
+  "tag": "new",
+  "sym": "◍",
+  "grad": "#33bba5,#133731",
+  "skin": {
+   "hue": 170.0,
+   "sat": 0.695,
+   "val": 0.773
+  }
+ },
+ {
+  "id": 26,
+  "slug": "juicy-melons",
+  "name": "Juicy Melons",
+  "provider": "Tech4Bet",
+  "jackpot": 69228.29,
+  "sym": "✿",
+  "grad": "#6b06a6,#210631",
+  "skin": {
+   "hue": 278.0,
+   "sat": 0.92,
+   "val": 0.687
+  }
+ },
+ {
+  "id": 27,
+  "slug": "monkey-27",
+  "name": "Monkey 27",
+  "provider": "Tom Horn",
+  "sym": "27",
+  "grad": "#9fbb41,#303717",
+  "skin": {
+   "hue": 74.0,
+   "sat": 0.62,
+   "val": 0.773
+  }
+ },
+ {
+  "id": 28,
+  "slug": "savannah-king",
+  "name": "Savannah King",
+  "provider": "Tom Horn",
+  "sym": "♌",
+  "grad": "#cad017,#3c3d0c",
+  "skin": {
+   "hue": 62.0,
+   "sat": 0.845,
+   "val": 0.86
+  }
+ },
+ {
+  "id": 29,
+  "slug": "gold-gobblers",
+  "name": "Gold Gobblers",
+  "provider": "Oryx",
+  "tag": "new",
+  "sym": "⛃",
+  "grad": "#3aa653,#14311b",
+  "skin": {
+   "hue": 134.0,
+   "sat": 0.62,
+   "val": 0.687
+  }
+ },
+ {
+  "id": 30,
+  "slug": "pandora-s-treasure",
+  "name": "Pandora's Treasure",
+  "provider": "NetEnt",
+  "tag": "new",
+  "sym": "◈",
+  "grad": "#151091,#0a082b",
+  "skin": {
+   "hue": 242.0,
+   "sat": 0.845,
+   "val": 0.6
+  }
+ }
+]

@@ -1,0 +1,25 @@
+{
+  "name": "empireofgold",
+  "private": true,
+  "packageManager": "pnpm@9.12.0",
+  "engines": { "node": ">=20.11.0" },
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck",
+    "test": "turbo run test",
+    "format": "prettier --write \"**/*.{ts,tsx,md,json,css}\"",
+    "api:dev": "pnpm --filter @eog/api dev",
+    "api:lint": "pnpm --filter @eog/api lint",
+    "api:test": "pnpm --filter @eog/api test",
+    "db:migrate": "uv run --project apps/api alembic upgrade head",
+    "db:revision": "uv run --project apps/api alembic revision --autogenerate -m",
+    "codegen": "bash tools/scripts/generate-api-client.sh"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "turbo": "^2.1.3",
+    "typescript": "^5.6.3"
+  }
+}
