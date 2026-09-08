@@ -71,8 +71,10 @@ vendor never shipped. It predates this repo.
 
 ## Measured
 
-Against a bandwidth-limited proxy at 8 Mbps / 80 ms RTT, each scenario in a
-fresh browser profile (`npm run measure`, two runs):
+Measured once against a bandwidth-limited proxy at 8 Mbps / 80 ms RTT, each
+scenario in a fresh browser profile, two runs. The proxy was scaffolding and is
+not in the repo; re-measuring means rebuilding it, or using Chrome DevTools
+network throttling by hand.
 
 | | Time to Play screen |
 |---|---|

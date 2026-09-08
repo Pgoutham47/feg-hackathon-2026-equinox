@@ -9,9 +9,7 @@
     "build": "next build",
     "start": "next start",
     "typecheck": "tsc --noEmit",
-    "test": "playwright test",
-    "proxy": "node tools/throttle-proxy.mjs",
-    "measure": "node tools/measure-prefetch.mjs"
+    "test": "playwright test"
   },
   "dependencies": {
     "next": "^15.0.3",
