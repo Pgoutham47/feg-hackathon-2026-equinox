@@ -1,32 +1,24 @@
 /** Catalogue types and URL shapes. No Node imports — the tiles use this too. */
 
-export type SliceAsset = {
-  path: string;
-  bytes: number;
-  /** Shared across the whole catalogue — fetched once, then free for every game. */
-  shared: boolean;
-};
+export type SliceAsset = { path: string; bytes: number };
 
+/** Presentation only. Every game boots the same bundle; the gradient and symbol are what differ. */
 export type Game = {
   slug: string;
   name: string;
   provider: string;
   symbol: string;
   gradient: string;
-  /** Content hash of the baked skin pack. It is in every asset URL, so a URL never changes meaning. */
-  bundleVersion: string;
-  /** 0..1 cold-start prior, used to rank games before a device has any history. */
-  popularity: number;
-  /** The files needed to reach the Play screen, largest first. */
-  slice: SliceAsset[];
 };
 
-export type Catalogue = { engineVersion: string; games: Game[] };
+export type Catalogue = {
+  /** Content hash of the whole bundle. It is in every asset URL, so a URL never changes meaning. */
+  bundleVersion: string;
+  /** The files needed to reach the Play screen, largest first. */
+  slice: SliceAsset[];
+  games: Game[];
+};
 
-export function thumbnailUrl(game: Game): string {
-  return `/cdn/${game.slug}/${game.bundleVersion}/thumb.webp`;
-}
-
-export function bundleUrl(game: Game): string {
-  return `/cdn/${game.slug}/${game.bundleVersion}/index.html`;
+export function assetUrl(bundleVersion: string, path: string): string {
+  return `/cdn/${bundleVersion}/${path}`;
 }

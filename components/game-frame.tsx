@@ -2,8 +2,6 @@
 
 import { useEffect } from 'react';
 
-import { recordPlay } from '@/lib/plays';
-
 /**
  * Boots the certified game bundle in an iframe and logs time-to-Play-screen.
  *
@@ -13,7 +11,6 @@ import { recordPlay } from '@/lib/plays';
 export function GameFrame({ slug, src }: { slug: string; src: string }) {
   useEffect(() => {
     const startedAt = performance.now();
-    recordPlay(slug);
 
     const onMessage = (event: MessageEvent) => {
       // The bundle is served from the lobby's own origin so the worker can

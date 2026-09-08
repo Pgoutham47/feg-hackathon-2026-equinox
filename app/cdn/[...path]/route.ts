@@ -1,21 +1,13 @@
 import { readFile, stat } from 'node:fs/promises';
 import { join, resolve, sep } from 'node:path';
 
-import { getCatalogue } from '@/lib/catalogue.server';
-
 /**
- * Serves the game bundle at the URL shape the CDN uses in production:
+ * Serves the game bundle at the URL shape a CDN would: /cdn/{version}/{path}.
  *
- *   /cdn/{slug}/{bundleVersion}/{path}   the baked skin pack
- *   /cdn/_shared/{engineVersion}/{path}  the shared engine
- *
- * The bundle asks for every file under its own prefix, because its index.html
- * references them relatively and we never modify it. So a per-game miss falls
- * through to the shared engine, and then to the unmodified source bundle in
- * `assets/` — which is what keeps the lobby working on a clone that has no
- * baked `cdn/` directory.
+ * The version is a content hash of the whole bundle, so every URL is immutable
+ * and the service worker never has to invalidate anything — only evict.
  */
-const ROOTS = ['cdn', 'assets', 'bundle'].map((dir) => resolve(process.cwd(), dir));
+const ROOT = resolve(process.cwd(), 'bundle');
 
 const TYPES: Record<string, string> = {
   html: 'text/html; charset=utf-8',
@@ -32,44 +24,23 @@ const TYPES: Record<string, string> = {
   fnt: 'text/plain; charset=utf-8',
 };
 
-/** The file at `candidate`, but only if it really is a file inside a served root. */
-async function readIfFile(candidate: string): Promise<Buffer | null> {
-  const full = resolve(process.cwd(), candidate);
-  // Path traversal guard: the URL is not trusted.
-  if (!ROOTS.some((root) => full.startsWith(root + sep))) return null;
-  try {
-    if (!(await stat(full)).isFile()) return null;
-    return await readFile(full);
-  } catch {
-    return null;
-  }
-}
-
 export async function GET(_request: Request, { params }: { params: Promise<{ path: string[] }> }) {
-  const segments = (await params).path;
-  const [namespace, , ...rest] = segments;
+  const [, ...rest] = (await params).path;
   const assetPath = rest.join('/');
-  if (!namespace || !assetPath) return new Response('Not found', { status: 404 });
+  const file = resolve(ROOT, join(...rest));
+  // Path traversal guard: the URL is not trusted.
+  if (!assetPath || !file.startsWith(ROOT + sep)) return new Response('Not found', { status: 404 });
 
-  const { engineVersion } = await getCatalogue();
-  const candidates = [
-    join('cdn', ...segments),
-    namespace === '_shared' ? null : join('cdn', '_shared', engineVersion, assetPath),
-    // The unmodified bundle in the repo: `assets/…` resolves as itself, and the
-    // boot document lives in `bundle/`.
-    assetPath === 'index.html' ? join('bundle', 'index.html') : assetPath,
-  ].filter((candidate): candidate is string => candidate !== null);
-
-  for (const candidate of candidates) {
-    const body = await readIfFile(candidate);
-    if (!body) continue;
-    return new Response(new Uint8Array(body), {
+  try {
+    if (!(await stat(file)).isFile()) throw new Error('not a file');
+    return new Response(new Uint8Array(await readFile(file)), {
       headers: {
         'Content-Type': TYPES[assetPath.split('.').pop() ?? ''] ?? 'application/octet-stream',
         // The version is in the path, so the bytes at a URL never change.
         'Cache-Control': 'public, max-age=31536000, immutable',
       },
     });
+  } catch {
+    return new Response('Not found', { status: 404 });
   }
-  return new Response('Not found', { status: 404 });
 }

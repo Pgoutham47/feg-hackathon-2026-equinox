@@ -8,7 +8,7 @@ import type { Catalogue, Game } from '@/lib/catalogue';
 /**
  * The catalogue is a single static file, served to the browser at
  * /catalogue.json and read here off disk. One source of truth for the lobby,
- * the game shell and the service worker's prefetch policy.
+ * the game shell and the service worker.
  */
 let cached: Promise<Catalogue> | null = null;
 
