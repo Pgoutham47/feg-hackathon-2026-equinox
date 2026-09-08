@@ -8,8 +8,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "typecheck": "tsc --noEmit",
-    "test": "playwright test"
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "next": "^15.0.3",
@@ -18,7 +17,6 @@
     "server-only": "^0.0.1"
   },
   "devDependencies": {
-    "@playwright/test": "^1.48.0",
     "@tailwindcss/postcss": "^4.0.0",
     "@types/node": "^22.7.5",
     "@types/react": "^19.0.0",

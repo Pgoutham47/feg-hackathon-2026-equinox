@@ -94,9 +94,9 @@ Timings come from `responseEnd`. Bytes are only meaningful in the first row:
 once a service worker serves a response the browser reports `transferSize` as 0
 whether or not the worker went to the network.
 
-## Tests
+## Checks
 
 ```bash
-npm test           # Playwright, on its own port so a running dev server never collides
 npm run typecheck
+npm run build
 ```
