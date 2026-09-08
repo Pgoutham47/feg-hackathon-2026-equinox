@@ -69,6 +69,29 @@ vendor never shipped. It predates this repo.
   control a cross-origin iframe, so a bundle on its own host is one the worker
   never sees — it re-downloads every prefetched byte, silently.
 
+## Measured
+
+Against a bandwidth-limited proxy at 8 Mbps / 80 ms RTT, each scenario in a
+fresh browser profile (`npm run measure`, two runs):
+
+| | Time to Play screen |
+|---|---|
+| Game opened cold, no prefetch | **5,430 / 5,450 ms** (5.21 MB over the wire) |
+| Game opened *while* the prefetch is still running | **2,769 / 2,769 ms** |
+| Game opened after the prefetch finished | **243 / 246 ms** |
+
+The prefetch itself takes ~7.3 s on that link.
+
+The middle row is the one worth keeping: a prefetch in flight does not get in the
+way of a game the player opens during it — it halves the wait, because every
+game boots the same bundle, so the prefetch is already downloading the exact
+files the game is about to ask for. Contention is impossible by construction
+here; it would only become a risk if games stopped sharing a bundle.
+
+Timings come from `responseEnd`. Bytes are only meaningful in the first row:
+once a service worker serves a response the browser reports `transferSize` as 0
+whether or not the worker went to the network.
+
 ## Tests
 
 ```bash
