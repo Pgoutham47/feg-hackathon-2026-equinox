@@ -55,6 +55,15 @@ e2e/                    Playwright tests
 `{slug}/{bundleVersion}/…` and `_shared/{engineVersion}/…`. Every URL contains a
 content version, so nothing is ever invalidated — only evicted.
 
+Exactly one version per game is live: the one `public/catalogue.json` names.
+A re-bake leaves the previous version on disk unreferenced, and those are safe
+to delete.
+
+The skins are not decoration. They are the ~4 MB of bytes that are unique to
+each game, and that marginal cost is the whole reason the ranking and the byte
+budget exist — share one bundle across the catalogue and caching any game caches
+them all.
+
 It is git-ignored and optional. Without it the route falls back to the
 unmodified bundle in `assets/`, and the lobby works with the source art instead
 of the 30 skins.
