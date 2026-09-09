@@ -1,8 +1,15 @@
 # Presentation
 
-Place the submitted slide deck here (`.pdf` preferred — it renders for every
-reviewer without a font or template dependency; keep the source `.pptx` or
-`.key` alongside it if you have one).
+**`Empire-of-Gold-Equinox.pdf`** — the five-slide deck, 16:9, PDF so it renders
+identically for every reviewer with no font or template dependency.
 
-<!-- TODO before submission: add the deck, or delete this folder if no deck is
-     required for the challenge entered. -->
+| Slide | |
+|---|---|
+| 1 | Title — the headline numbers: 5,430 ms → 243 ms, 22×, 0 bytes changed |
+| 2 | The problem — slow loads suppress discovery, and the constraint is structural |
+| 3 | The solution — three ordered passes over one shared bundle |
+| 4 | Results — measured, and mapped onto the challenge's own metrics |
+| 5 | Business impact — cost, value, break-even and what would close the analysis |
+
+The palette is the product's own, converted from the oklch tokens in
+`src/app/globals.css`, so the deck and the lobby read as one thing.
