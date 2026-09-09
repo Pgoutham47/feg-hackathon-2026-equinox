@@ -1,6 +1,10 @@
-node_modules/
-.next/
-next-env.d.ts
+
 *.tsbuildinfo
 .DS_Store
-
+.env
+.env.*
+!.env.example
+.next-prod/
+.next/
+next-env.d.ts
+node_modules/

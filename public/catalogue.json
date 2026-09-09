@@ -2,7 +2,7 @@
  "bundleVersion": "a551899a9b6edc46",
  "slice": [
   {
-   "path": "assets/spines/@1x/EOG_Logo_Anim.png",
+   "path": "assets/spines/{tier}/EOG_Logo_Anim.png",
    "bytes": 1853021
   },
   {
@@ -10,15 +10,15 @@
    "bytes": 1292928
   },
   {
-   "path": "assets/spines/@1x/EOG_Logo_Anim_2.png",
+   "path": "assets/spines/{tier}/EOG_Logo_Anim_2.png",
    "bytes": 944445
   },
   {
-   "path": "assets/images/@1x/splashAssets.webp",
+   "path": "assets/images/{tier}/splashAssets.webp",
    "bytes": 869352
   },
   {
-   "path": "assets/images/@1x/splashBG.jpg",
+   "path": "assets/images/{tier}/splashBG.jpg",
    "bytes": 675111
   },
   {
@@ -46,7 +46,7 @@
    "bytes": 45679
   },
   {
-   "path": "assets/images/@1x/controlPanelPrimaryAssets.webp",
+   "path": "assets/images/{tier}/controlPanelPrimaryAssets.webp",
    "bytes": 26726
   },
   {
@@ -62,11 +62,11 @@
    "bytes": 14077
   },
   {
-   "path": "assets/images/@1x/brandLogo.png",
+   "path": "assets/images/{tier}/brandLogo.png",
    "bytes": 10611
   },
   {
-   "path": "assets/spines/@1x/EOG_Logo_Anim.json",
+   "path": "assets/spines/{tier}/EOG_Logo_Anim.json",
    "bytes": 9577
   },
   {
@@ -90,11 +90,11 @@
    "bytes": 2213
   },
   {
-   "path": "assets/spines/@1x/EOG_Logo_Anim.atlas",
+   "path": "assets/spines/{tier}/EOG_Logo_Anim.atlas",
    "bytes": 1761
   },
   {
-   "path": "assets/images/@1x/controlPanelPrimaryAssets.json",
+   "path": "assets/images/{tier}/controlPanelPrimaryAssets.json",
    "bytes": 1633
   },
   {
@@ -102,12 +102,214 @@
    "bytes": 1326
   },
   {
-   "path": "assets/images/@1x/splashAssets.json",
+   "path": "assets/images/{tier}/splashAssets.json",
    "bytes": 1135
   },
   {
-   "path": "assets/images/@1x/splashBG.json",
+   "path": "assets/images/{tier}/splashBG.json",
    "bytes": 520
+  }
+ ],
+ "audio": [
+  {
+   "path": "assets/sounds/{fmt}/BBGM.{fmt}",
+   "bytes": 4715299
+  },
+  {
+   "path": "assets/sounds/{fmt}/genericButtonSound.{fmt}",
+   "bytes": 33658
+  },
+  {
+   "path": "assets/sounds/{fmt}/ERROR POP UP.{fmt}",
+   "bytes": 95792
+  },
+  {
+   "path": "assets/sounds/{fmt}/Symbol pop up.{fmt}",
+   "bytes": 46245
+  },
+  {
+   "path": "assets/sounds/{fmt}/SLIDER SFX.{fmt}",
+   "bytes": 19049
+  },
+  {
+   "path": "assets/sounds/{fmt}/WIN 1.{fmt}",
+   "bytes": 381176
+  },
+  {
+   "path": "assets/sounds/{fmt}/WIN 2.{fmt}",
+   "bytes": 397350
+  },
+  {
+   "path": "assets/sounds/{fmt}/WIN 3.{fmt}",
+   "bytes": 514450
+  },
+  {
+   "path": "assets/sounds/{fmt}/WIN 4.{fmt}",
+   "bytes": 1097647
+  },
+  {
+   "path": "assets/sounds/{fmt}/WIN TERMINATION.{fmt}",
+   "bytes": 87883
+  },
+  {
+   "path": "assets/sounds/{fmt}/ROLL UP.{fmt}",
+   "bytes": 219298
+  },
+  {
+   "path": "assets/sounds/{fmt}/ROLL UP TERMINATION.{fmt}",
+   "bytes": 140554
+  },
+  {
+   "path": "assets/sounds/{fmt}/spin clicked.{fmt}",
+   "bytes": 38293
+  },
+  {
+   "path": "assets/sounds/{fmt}/stop spin clicked.{fmt}",
+   "bytes": 66590
+  },
+  {
+   "path": "assets/sounds/{fmt}/REEL DROP SFX.{fmt}",
+   "bytes": 42914
+  },
+  {
+   "path": "assets/sounds/{fmt}/REEL SPIN.{fmt}",
+   "bytes": 53599
+  },
+  {
+   "path": "assets/sounds/{fmt}/smallSymbolsDrop.{fmt}",
+   "bytes": 15658
+  },
+  {
+   "path": "assets/sounds/{fmt}/REEL STOP.{fmt}",
+   "bytes": 20218
+  },
+  {
+   "path": "assets/sounds/{fmt}/Symbol Burst.{fmt}",
+   "bytes": 47185
+  },
+  {
+   "path": "assets/sounds/{fmt}/SYMBOL BURST_H1.{fmt}",
+   "bytes": 82517
+  },
+  {
+   "path": "assets/sounds/{fmt}/SYMBOL BURST_H2.{fmt}",
+   "bytes": 99543
+  },
+  {
+   "path": "assets/sounds/{fmt}/SYMBOL BURST_H3.{fmt}",
+   "bytes": 84050
+  },
+  {
+   "path": "assets/sounds/{fmt}/SYMBOL BURST_H4.{fmt}",
+   "bytes": 96266
+  },
+  {
+   "path": "assets/sounds/{fmt}/NORMAL PAYLINE 1.{fmt}",
+   "bytes": 81447
+  },
+  {
+   "path": "assets/sounds/{fmt}/NORMAL PAYLINE 2.{fmt}",
+   "bytes": 84194
+  },
+  {
+   "path": "assets/sounds/{fmt}/NORMAL PAYLINE 3.{fmt}",
+   "bytes": 83489
+  },
+  {
+   "path": "assets/sounds/{fmt}/NORMAL PAYLINE 4.{fmt}",
+   "bytes": 81691
+  },
+  {
+   "path": "assets/sounds/{fmt}/NORMAL PAYLINE 5.{fmt}",
+   "bytes": 87111
+  },
+  {
+   "path": "assets/sounds/{fmt}/NORMAL PAYLINE 6.{fmt}",
+   "bytes": 86412
+  },
+  {
+   "path": "assets/sounds/{fmt}/TURBO PAYLINE 1.{fmt}",
+   "bytes": 104694
+  },
+  {
+   "path": "assets/sounds/{fmt}/TURBO PAYLINE 2.{fmt}",
+   "bytes": 106639
+  },
+  {
+   "path": "assets/sounds/{fmt}/TURBO PAYLINE 3.{fmt}",
+   "bytes": 104954
+  },
+  {
+   "path": "assets/sounds/{fmt}/TURBO PAYLINE 4.{fmt}",
+   "bytes": 103596
+  },
+  {
+   "path": "assets/sounds/{fmt}/TURBO PAYLINE 5.{fmt}",
+   "bytes": 106882
+  },
+  {
+   "path": "assets/sounds/{fmt}/TURBO PAYLINE 6.{fmt}",
+   "bytes": 105192
+  },
+  {
+   "path": "assets/sounds/{fmt}/MULTIPLIER LAND SFX.{fmt}",
+   "bytes": 71407
+  },
+  {
+   "path": "assets/sounds/{fmt}/MULTIPLIER TRAIL SFX.{fmt}",
+   "bytes": 29818
+  },
+  {
+   "path": "assets/sounds/{fmt}/MULTIPLIER TOTAL WIN.{fmt}",
+   "bytes": 66298
+  },
+  {
+   "path": "assets/sounds/{fmt}/Scatter Land 1.{fmt}",
+   "bytes": 84620
+  },
+  {
+   "path": "assets/sounds/{fmt}/Scatter Land 2.{fmt}",
+   "bytes": 85560
+  },
+  {
+   "path": "assets/sounds/{fmt}/Scatter Land 3.{fmt}",
+   "bytes": 85843
+  },
+  {
+   "path": "assets/sounds/{fmt}/Scatter Land 4.{fmt}",
+   "bytes": 87724
+  },
+  {
+   "path": "assets/sounds/{fmt}/Scatter Land 5.{fmt}",
+   "bytes": 86876
+  },
+  {
+   "path": "assets/sounds/{fmt}/Scatter Land 6.{fmt}",
+   "bytes": 85003
+  },
+  {
+   "path": "assets/sounds/{fmt}/SCATTER WIN 1.{fmt}",
+   "bytes": 108388
+  },
+  {
+   "path": "assets/sounds/{fmt}/SCATTER WIN 2.{fmt}",
+   "bytes": 108752
+  },
+  {
+   "path": "assets/sounds/{fmt}/INTRO.{fmt}",
+   "bytes": 134247
+  },
+  {
+   "path": "assets/sounds/{fmt}/OUTRO.{fmt}",
+   "bytes": 109779
+  },
+  {
+   "path": "assets/sounds/{fmt}/Ante bet button.{fmt}",
+   "bytes": 28506
+  },
+  {
+   "path": "assets/sounds/{fmt}/Buy bonus button.{fmt}",
+   "bytes": 17901
   }
  ],
  "games": [
@@ -122,35 +324,35 @@
    "slug": "frozzy-fruits",
    "name": "Frozzy Fruits",
    "provider": "E-Gaming",
-   "symbol": "\u2744",
+   "symbol": "❄",
    "gradient": "#2887d0,#102a3d"
   },
   {
    "slug": "hunter-s-dream-2",
    "name": "Hunter's Dream 2",
    "provider": "E-Gaming",
-   "symbol": "\u2663",
+   "symbol": "♣",
    "gradient": "#d06849,#3d2219"
   },
   {
    "slug": "golden-fate-1000",
    "name": "Golden Fate 1000",
    "provider": "Pateplay",
-   "symbol": "\u2625",
+   "symbol": "☥",
    "gradient": "#6ca620,#21310d"
   },
   {
    "slug": "dynamite-splash-20",
    "name": "Dynamite Splash 20",
    "provider": "Pateplay",
-   "symbol": "\u2739",
+   "symbol": "✹",
    "gradient": "#a62d41,#311116"
   },
   {
    "slug": "5-burning-clover",
    "name": "5 Burning Clover",
    "provider": "EGT Digital",
-   "symbol": "\u2667",
+   "symbol": "♧",
    "gradient": "#07d087,#083d2a"
   },
   {
@@ -164,35 +366,35 @@
    "slug": "fruit-force",
    "name": "Fruit Force",
    "provider": "Synot",
-   "symbol": "\u2666",
+   "symbol": "♦",
    "gradient": "#6624bb,#200f37"
   },
   {
    "slug": "diamonds-power",
    "name": "Diamonds Power",
    "provider": "Playson",
-   "symbol": "\u25c6",
+   "symbol": "◆",
    "gradient": "#0649bb,#071937"
   },
   {
    "slug": "lucky-piggies-2",
    "name": "Lucky Piggies 2",
    "provider": "Amatic",
-   "symbol": "\u2605",
+   "symbol": "★",
    "gradient": "#918027,#2b260f"
   },
   {
    "slug": "royal-coins-2",
    "name": "Royal Coins 2",
    "provider": "Playson",
-   "symbol": "\u265b",
+   "symbol": "♛",
    "gradient": "#15bb1b,#0b370c"
   },
   {
    "slug": "hot-fruits-20",
    "name": "Hot Fruits 20",
    "provider": "Amatic",
-   "symbol": "\u2726",
+   "symbol": "✦",
    "gradient": "#d02887,#3d102a"
   },
   {
@@ -206,91 +408,91 @@
    "slug": "aurum-hot-40",
    "name": "Aurum Hot 40",
    "provider": "Fazi",
-   "symbol": "\u2660",
+   "symbol": "♠",
    "gradient": "#52d038,#1c3d15"
   },
   {
    "slug": "reactoonz",
    "name": "Reactoonz",
    "provider": "Play'n GO",
-   "symbol": "\u25c9",
+   "symbol": "◉",
    "gradient": "#13a1a6,#0a3031"
   },
   {
    "slug": "lucky-streak-3",
    "name": "Lucky Streak 3",
    "provider": "Endorphina",
-   "symbol": "\u26a1",
+   "symbol": "⚡",
    "gradient": "#d017ca,#3d0c3c"
   },
   {
    "slug": "mystery-joker",
    "name": "Mystery Joker",
    "provider": "Play'n GO",
-   "symbol": "\u265e",
+   "symbol": "♞",
    "gradient": "#6849d0,#22193d"
   },
   {
    "slug": "book-of-sun",
    "name": "Book of Sun",
    "provider": "Greentube",
-   "symbol": "\u2600",
+   "symbol": "☀",
    "gradient": "#a66b06,#312106"
   },
   {
    "slug": "lumberjack-2",
    "name": "Lumberjack 2",
    "provider": "Tech4Bet",
-   "symbol": "\u26cf",
+   "symbol": "⛏",
    "gradient": "#1c914f,#0c2b19"
   },
   {
    "slug": "cougar-blitz",
    "name": "Cougar Blitz",
    "provider": "Playtech",
-   "symbol": "\u25b2",
+   "symbol": "▲",
    "gradient": "#bb6624,#37200f"
   },
   {
    "slug": "15-diamonds",
    "name": "15 Diamonds",
    "provider": "Playtech",
-   "symbol": "\u25c6",
+   "symbol": "◆",
    "gradient": "#337b91,#12252b"
   },
   {
    "slug": "king-rhino",
    "name": "King Rhino",
    "provider": "Tech4Bet",
-   "symbol": "\u265c",
+   "symbol": "♜",
    "gradient": "#2d41a6,#111631"
   },
   {
    "slug": "cairo-dice",
    "name": "Cairo Dice",
    "provider": "Amusnet",
-   "symbol": "\u2680",
+   "symbol": "⚀",
    "gradient": "#389105,#132b05"
   },
   {
    "slug": "100-bulky-dice",
    "name": "100 Bulky Dice",
    "provider": "Amusnet",
-   "symbol": "\u2684",
+   "symbol": "⚄",
    "gradient": "#911510,#2b0a08"
   },
   {
    "slug": "jungle-roulette",
    "name": "Jungle Roulette",
    "provider": "Tech4Bet",
-   "symbol": "\u25cd",
+   "symbol": "◍",
    "gradient": "#33bba5,#133731"
   },
   {
    "slug": "juicy-melons",
    "name": "Juicy Melons",
    "provider": "Tech4Bet",
-   "symbol": "\u273f",
+   "symbol": "✿",
    "gradient": "#6b06a6,#210631"
   },
   {
@@ -304,22 +506,644 @@
    "slug": "savannah-king",
    "name": "Savannah King",
    "provider": "Tom Horn",
-   "symbol": "\u264c",
+   "symbol": "♌",
    "gradient": "#cad017,#3c3d0c"
   },
   {
    "slug": "gold-gobblers",
    "name": "Gold Gobblers",
    "provider": "Oryx",
-   "symbol": "\u26c3",
+   "symbol": "⛃",
    "gradient": "#3aa653,#14311b"
   },
   {
    "slug": "pandora-s-treasure",
    "name": "Pandora's Treasure",
    "provider": "NetEnt",
-   "symbol": "\u25c8",
+   "symbol": "◈",
    "gradient": "#151091,#0a082b"
+  }
+ ],
+ "rest": [
+  {
+   "path": "assets/sounds/{fmt}/FBGM.{fmt}",
+   "bytes": 5946281
+  },
+  {
+   "path": "assets/spines/{tier}/king_character.png",
+   "bytes": 4751493
+  },
+  {
+   "path": "assets/spines/{tier}/BG_king_2.png",
+   "bytes": 3508090
+  },
+  {
+   "path": "assets/spines/{tier}/bigwins.png",
+   "bytes": 3128206
+  },
+  {
+   "path": "assets/spines/{tier}/king_character_2.png",
+   "bytes": 2484770
+  },
+  {
+   "path": "assets/spines/{tier}/BG_king.json",
+   "bytes": 2183073
+  },
+  {
+   "path": "assets/spines/{tier}/BG_king.png",
+   "bytes": 1747631
+  },
+  {
+   "path": "assets/spines/{tier}/cup.png",
+   "bytes": 1400549
+  },
+  {
+   "path": "assets/spines/{tier}/bigwins_2.png",
+   "bytes": 1315362
+  },
+  {
+   "path": "assets/spines/{tier}/reels_frame.png",
+   "bytes": 924024
+  },
+  {
+   "path": "assets/spines/{tier}/jp_wins.png",
+   "bytes": 751247
+  },
+  {
+   "path": "assets/images/{tier}/symbols.webp",
+   "bytes": 696504
+  },
+  {
+   "path": "assets/history/footerIcons/copy-icon.png",
+   "bytes": 615867
+  },
+  {
+   "path": "assets/spines/{tier}/king_character.json",
+   "bytes": 541568
+  },
+  {
+   "path": "assets/spines/{tier}/bigwins.json",
+   "bytes": 530282
+  },
+  {
+   "path": "assets/fonts/en/Roboto.ttf",
+   "bytes": 487768
+  },
+  {
+   "path": "assets/spines/{tier}/scatter.json",
+   "bytes": 471563
+  },
+  {
+   "path": "assets/spines/{tier}/king_character_3.png",
+   "bytes": 419263
+  },
+  {
+   "path": "assets/images/{tier}/controlPanelAssets.webp",
+   "bytes": 316646
+  },
+  {
+   "path": "assets/spines/{tier}/jp_wins.json",
+   "bytes": 290111
+  },
+  {
+   "path": "assets/images/{tier}/gameElements.webp",
+   "bytes": 288508
+  },
+  {
+   "path": "assets/spines/{tier}/chest.png",
+   "bytes": 267788
+  },
+  {
+   "path": "assets/spines/{tier}/shield.png",
+   "bytes": 259039
+  },
+  {
+   "path": "assets/spines/{tier}/low_5.png",
+   "bytes": 249143
+  },
+  {
+   "path": "assets/spines/{tier}/shield.json",
+   "bytes": 243863
+  },
+  {
+   "path": "assets/spines/{tier}/low_3.png",
+   "bytes": 242378
+  },
+  {
+   "path": "assets/spines/{tier}/scatter.png",
+   "bytes": 238429
+  },
+  {
+   "path": "assets/spines/{tier}/low_2.png",
+   "bytes": 232528
+  },
+  {
+   "path": "assets/spines/{tier}/low_1.png",
+   "bytes": 231173
+  },
+  {
+   "path": "assets/spines/{tier}/low_4.png",
+   "bytes": 225137
+  },
+  {
+   "path": "assets/spines/{tier}/reels_frame_2.png",
+   "bytes": 220455
+  },
+  {
+   "path": "assets/spines/{tier}/multiplayer.png",
+   "bytes": 219807
+  },
+  {
+   "path": "assets/images/{tier}/en/langImages.webp",
+   "bytes": 193396
+  },
+  {
+   "path": "assets/fonts/bmp/bitmapFont_JP.png",
+   "bytes": 190149
+  },
+  {
+   "path": "assets/fonts/bmp/bitmapFont_0.png",
+   "bytes": 175245
+  },
+  {
+   "path": "assets/spines/{tier}/jp_jackpots.json",
+   "bytes": 162625
+  },
+  {
+   "path": "assets/spines/{tier}/cup.json",
+   "bytes": 147653
+  },
+  {
+   "path": "assets/spines/{tier}/chest.json",
+   "bytes": 146985
+  },
+  {
+   "path": "assets/spines/{tier}/book.json",
+   "bytes": 142235
+  },
+  {
+   "path": "assets/spines/{tier}/explosion1.png",
+   "bytes": 136166
+  },
+  {
+   "path": "assets/spines/{tier}/low_3.json",
+   "bytes": 114831
+  },
+  {
+   "path": "assets/spines/{tier}/low_5.json",
+   "bytes": 105319
+  },
+  {
+   "path": "assets/spines/{tier}/low_1.json",
+   "bytes": 97134
+  },
+  {
+   "path": "assets/history/gameIcons/meow_meow_meow.png",
+   "bytes": 90948
+  },
+  {
+   "path": "assets/spines/{tier}/low_4.json",
+   "bytes": 90521
+  },
+  {
+   "path": "assets/spines/{tier}/low_2.json",
+   "bytes": 75113
+  },
+  {
+   "path": "assets/images/{tier}/loader_anim.gif",
+   "bytes": 61410
+  },
+  {
+   "path": "assets/spines/{tier}/multiplayer.json",
+   "bytes": 56216
+  },
+  {
+   "path": "assets/payTableImages/Wins.png",
+   "bytes": 54385
+  },
+  {
+   "path": "assets/spines/{tier}/jakpots.json",
+   "bytes": 51917
+  },
+  {
+   "path": "assets/payTableImages/SC.png",
+   "bytes": 49259
+  },
+  {
+   "path": "assets/panel/images/gameControlImages/spinBtn.png",
+   "bytes": 48067
+  },
+  {
+   "path": "assets/panel/images/gameControlImages/stopSpinBtn.png",
+   "bytes": 44709
+  },
+  {
+   "path": "assets/images/{tier}/en/commonLangAssets.webp",
+   "bytes": 36536
+  },
+  {
+   "path": "assets/history/gameIcons/BookOfSTorm_LW.jpg",
+   "bytes": 34192
+  },
+  {
+   "path": "assets/spines/{tier}/reels_frame.json",
+   "bytes": 28829
+  },
+  {
+   "path": "assets/spines/{tier}/cards.json",
+   "bytes": 27572
+  },
+  {
+   "path": "assets/panel/ts/HistoryPanel.ts",
+   "bytes": 26854
+  },
+  {
+   "path": "assets/panel/gamerules.html",
+   "bytes": 25634
+  },
+  {
+   "path": "assets/panel/images/gameControlImages/turboSelectedBtn.png",
+   "bytes": 25530
+  },
+  {
+   "path": "assets/payTableImages/H3.png",
+   "bytes": 24133
+  },
+  {
+   "path": "assets/panel/images/gameControlImages/betBtn.png",
+   "bytes": 24052
+  },
+  {
+   "path": "assets/payTableImages/H1.png",
+   "bytes": 23753
+  },
+  {
+   "path": "assets/payTableImages/H2.png",
+   "bytes": 23099
+  },
+  {
+   "path": "assets/payTableImages/H4.png",
+   "bytes": 22706
+  },
+  {
+   "path": "assets/panel/ts/SlotRuleLoader.ts",
+   "bytes": 22605
+  },
+  {
+   "path": "assets/panel/images/gameControlImages/turboBtn.png",
+   "bytes": 22328
+  },
+  {
+   "path": "assets/history/gameIcons/BookOfSTorm.jpg",
+   "bytes": 22297
+  },
+  {
+   "path": "assets/history/gameIcons/Frosted_market.jpg",
+   "bytes": 21679
+  },
+  {
+   "path": "assets/panel/images/loading_anim.gif",
+   "bytes": 20539
+  },
+  {
+   "path": "assets/payTableImages/500x.png",
+   "bytes": 19843
+  },
+  {
+   "path": "assets/payTableImages/2X.png",
+   "bytes": 19610
+  },
+  {
+   "path": "assets/payTableImages/multi_blue.png",
+   "bytes": 18402
+  },
+  {
+   "path": "assets/payTableImages/multi_purple.png",
+   "bytes": 18381
+  },
+  {
+   "path": "assets/payTableImages/multi_green.png",
+   "bytes": 18229
+  },
+  {
+   "path": "assets/payTableImages/multi_red.png",
+   "bytes": 18201
+  },
+  {
+   "path": "assets/locale/ro/commonContent.json",
+   "bytes": 17295
+  },
+  {
+   "path": "assets/locale/lt/commonContent.json",
+   "bytes": 17150
+  },
+  {
+   "path": "assets/locale/sk/commonContent.json",
+   "bytes": 16847
+  },
+  {
+   "path": "assets/locale/cs/commonContent.json",
+   "bytes": 16823
+  },
+  {
+   "path": "assets/locale/pl/commonContent.json",
+   "bytes": 16768
+  },
+  {
+   "path": "assets/spines/{tier}/bigwins.atlas",
+   "bytes": 16553
+  },
+  {
+   "path": "assets/locale/hr/commonContent.json",
+   "bytes": 16118
+  },
+  {
+   "path": "assets/locale/cnr/commonContent.json",
+   "bytes": 15933
+  },
+  {
+   "path": "assets/payTableImages/L3.png",
+   "bytes": 14972
+  },
+  {
+   "path": "assets/panel/images/gameControlImages/soundOffBtn.png",
+   "bytes": 14942
+  },
+  {
+   "path": "assets/panel/images/gameControlImages/infoBtn.png",
+   "bytes": 14680
+  },
+  {
+   "path": "assets/payTableImages/L4.png",
+   "bytes": 14357
+  },
+  {
+   "path": "assets/panel/images/gameControlImages/soundOnBtn.png",
+   "bytes": 14300
+  },
+  {
+   "path": "assets/panel/images/gameControlImages/homeBtn.png",
+   "bytes": 14104
+  },
+  {
+   "path": "assets/payTableImages/L1.png",
+   "bytes": 14097
+  },
+  {
+   "path": "assets/payTableImages/L5.png",
+   "bytes": 13806
+  },
+  {
+   "path": "assets/panel/images/gameControlImages/close.png",
+   "bytes": 13537
+  },
+  {
+   "path": "assets/payTableImages/L2.png",
+   "bytes": 12764
+  },
+  {
+   "path": "assets/panel/images/gameControlImages/menuBtn.png",
+   "bytes": 12524
+  },
+  {
+   "path": "assets/spines/{tier}/king_character.atlas",
+   "bytes": 12359
+  },
+  {
+   "path": "assets/panel/images/gameControlImages/fullscreenExitBtn.png",
+   "bytes": 12282
+  },
+  {
+   "path": "assets/panel/images/gameControlImages/fullscreenEnterBtn.png",
+   "bytes": 11714
+  },
+  {
+   "path": "assets/payTableImages/bbBtn.png",
+   "bytes": 11478
+  },
+  {
+   "path": "assets/payTableImages/ante_frame_gold.png",
+   "bytes": 10700
+  },
+  {
+   "path": "assets/images/{tier}/controlPanelAssets.json",
+   "bytes": 10592
+  },
+  {
+   "path": "assets/payTableImages/ante_frame_slver.png",
+   "bytes": 10440
+  },
+  {
+   "path": "assets/panel/ts/GameRulesPanel.ts",
+   "bytes": 10382
+  },
+  {
+   "path": "assets/history/gameIcons/Royale_81.jpg",
+   "bytes": 9664
+  },
+  {
+   "path": "assets/history/gameIcons/Seet_salon.jpg",
+   "bytes": 9250
+  },
+  {
+   "path": "assets/history/gameIcons/EOG_NC.jpg",
+   "bytes": 9237
+  },
+  {
+   "path": "assets/spines/{tier}/jakpots.atlas",
+   "bytes": 8651
+  },
+  {
+   "path": "assets/history/gameIcons/empier_of_gold.jpg",
+   "bytes": 8493
+  },
+  {
+   "path": "assets/panel/devUtils/devUtilities.ts",
+   "bytes": 8052
+  },
+  {
+   "path": "assets/spines/{tier}/reels_frame.atlas",
+   "bytes": 7578
+  },
+  {
+   "path": "assets/history/footerIcons/global-inactive.png",
+   "bytes": 6718
+  },
+  {
+   "path": "assets/panel/ts/zoomDisable.ts",
+   "bytes": 6607
+  },
+  {
+   "path": "assets/spines/{tier}/book.atlas",
+   "bytes": 6170
+  },
+  {
+   "path": "assets/spines/{tier}/cup.atlas",
+   "bytes": 5851
+  },
+  {
+   "path": "assets/history/footerIcons/global-active.png",
+   "bytes": 5832
+  },
+  {
+   "path": "assets/spines/{tier}/jp_jackpots.atlas",
+   "bytes": 5767
+  },
+  {
+   "path": "assets/spines/{tier}/BG_king.atlas",
+   "bytes": 5660
+  },
+  {
+   "path": "assets/history/footerIcons/history-inactive.png",
+   "bytes": 5625
+  },
+  {
+   "path": "assets/spines/{tier}/scatter.atlas",
+   "bytes": 5601
+  },
+  {
+   "path": "assets/images/{tier}/gameElements.json",
+   "bytes": 5572
+  },
+  {
+   "path": "assets/spines/{tier}/chest.atlas",
+   "bytes": 5408
+  },
+  {
+   "path": "assets/history/footerIcons/history-active.png",
+   "bytes": 5078
+  },
+  {
+   "path": "assets/history/footerIcons/current-inactive.png",
+   "bytes": 4995
+  },
+  {
+   "path": "assets/locale/ro/gameContent.json",
+   "bytes": 4806
+  },
+  {
+   "path": "assets/locale/sk/gameContent.json",
+   "bytes": 4602
+  },
+  {
+   "path": "assets/locale/cs/gameContent.json",
+   "bytes": 4599
+  },
+  {
+   "path": "assets/locale/pl/gameContent.json",
+   "bytes": 4592
+  },
+  {
+   "path": "assets/locale/lt/gameContent.json",
+   "bytes": 4467
+  },
+  {
+   "path": "assets/locale/hr/gameContent.json",
+   "bytes": 4343
+  },
+  {
+   "path": "assets/history/footerIcons/current-active.png",
+   "bytes": 4342
+  },
+  {
+   "path": "assets/locale/cnr/gameContent.json",
+   "bytes": 4245
+  },
+  {
+   "path": "assets/panel/devUtils/cheatTool.ts",
+   "bytes": 3622
+  },
+  {
+   "path": "assets/panel/cheat.json",
+   "bytes": 3549
+  },
+  {
+   "path": "assets/spines/{tier}/shield.atlas",
+   "bytes": 3088
+  },
+  {
+   "path": "assets/images/{tier}/symbols.json",
+   "bytes": 2924
+  },
+  {
+   "path": "assets/spines/{tier}/low_4.atlas",
+   "bytes": 2863
+  },
+  {
+   "path": "assets/history/historyV2.html",
+   "bytes": 2834
+  },
+  {
+   "path": "assets/spines/{tier}/low_5.atlas",
+   "bytes": 2779
+  },
+  {
+   "path": "assets/spines/{tier}/low_1.atlas",
+   "bytes": 2737
+  },
+  {
+   "path": "assets/spines/{tier}/low_3.atlas",
+   "bytes": 2733
+  },
+  {
+   "path": "assets/spines/{tier}/low_2.atlas",
+   "bytes": 2655
+  },
+  {
+   "path": "assets/spines/{tier}/explosion1.json",
+   "bytes": 2544
+  },
+  {
+   "path": "assets/panel/images/gameControlImages/closeBtn.png",
+   "bytes": 2348
+  },
+  {
+   "path": "assets/spines/{tier}/cards.atlas",
+   "bytes": 2269
+  },
+  {
+   "path": "assets/fonts/bmp/bitmapFont.fnt",
+   "bytes": 2225
+  },
+  {
+   "path": "assets/fonts/bmp/bitmapFontJP.fnt",
+   "bytes": 2002
+  },
+  {
+   "path": "assets/spines/{tier}/multiplayer.atlas",
+   "bytes": 1873
+  },
+  {
+   "path": "index.html",
+   "bytes": 1619
+  },
+  {
+   "path": "assets/spines/{tier}/jp_wins.atlas",
+   "bytes": 1170
+  },
+  {
+   "path": "assets/images/{tier}/en/langImages.json",
+   "bytes": 1100
+  },
+  {
+   "path": "assets/images/{tier}/en/commonLangAssets.json",
+   "bytes": 710
+  },
+  {
+   "path": "assets/spines/{tier}/explosion1.atlas",
+   "bytes": 694
+  },
+  {
+   "path": "assets/images/{tier}/jackpotBG1.json",
+   "bytes": 573
+  },
+  {
+   "path": "assets/images/{tier}/jackpotBG0.json",
+   "bytes": 571
+  },
+  {
+   "path": "assets/manifest.json",
+   "bytes": 401
   }
  ]
 }

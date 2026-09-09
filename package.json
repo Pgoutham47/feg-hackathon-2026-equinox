@@ -6,11 +6,15 @@
   },
   "scripts": {
     "dev": "next dev",
+    "prebuild": "node scripts/build-art.mjs",
     "build": "next build",
     "start": "next start",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "check:bundle": "node tests/check-bundle.mjs",
+    "art": "node scripts/build-art.mjs"
   },
   "dependencies": {
+    "ismobilejs": "^1.1.1",
     "next": "^15.0.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",

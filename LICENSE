@@ -1,0 +1,37 @@
+Copyright (c) 2026 Team Equinox
+(Maheswar Sahoo, Pakala Goutham, Tigulla Geetha, Kompally Ravi Varma).
+All rights reserved.
+
+FEG Hackathon 2026 submission — proprietary, not open source.
+
+This repository is submitted to T-Hub and FEG solely for evaluation in the FEG
+Hackathon 2026. Permission is granted to the Organisers and their designated
+reviewers to clone, install, run and evaluate this submission in a controlled
+evaluation environment for the purposes of Hackathon judging and administration.
+
+No other licence is granted. Except as stated above, no part of this repository
+may be copied, modified, distributed, sublicensed, publicly displayed or used
+for any commercial purpose without the prior written permission of the
+copyright holders.
+
+THIRD-PARTY COMPONENTS
+
+This repository incorporates third-party software and assets that are NOT
+covered by the terms above and remain subject to their own licences:
+
+  * The open-source npm packages declared in package.json, each under its own
+    licence (MIT, Apache-2.0, ISC, BSD-3-Clause, MPL-2.0, 0BSD, CC-BY-4.0).
+  * The pre-built game bundle under public/bundle/, supplied as a certified
+    third-party build and redistributed here unmodified. It is not the
+    submitting team's work and is not licensed by this file. It embeds
+    third-party runtimes (PixiJS, Howler.js, GSAP, the Spine runtime) and
+    third-party fonts, each under its own licence.
+  * The game cover artwork under assets/art-src/ and public/art/, supplied as
+    vendor thumbnails.
+
+See docs/dependencies.md for the full disclosure. Where a third-party licence
+conflicts with the terms above, the third-party licence governs that component.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.

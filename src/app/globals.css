@@ -1,0 +1,56 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-bg: oklch(14% 0.02 264);
+  --color-surface: oklch(19% 0.025 264);
+  --color-border: oklch(28% 0.03 264);
+  --color-text: oklch(96% 0.01 264);
+  --color-muted: oklch(68% 0.02 264);
+  --color-gold: oklch(78% 0.15 85);
+  --color-elevated: oklch(23% 0.03 264);
+  --color-accent: oklch(62% 0.22 305);
+  --color-win: oklch(72% 0.19 150);
+  --color-live: oklch(63% 0.23 22);
+  --radius-tile: 14px;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+
+/* The dashboard chrome sits above a full-bleed page, so anything that scrolls
+   sideways (the category rail, the jackpot ticker) hides its scrollbar rather
+   than drawing one across the design. */
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+@keyframes eog-rise {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.rise {
+  animation: eog-rise 0.22s ease-out both;
+}
+
+/* The lobby is a touch surface first — kill the 300ms tap delay and the
+   long-press callout, both of which fight the pointerdown prefetch trigger. */
+* {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
