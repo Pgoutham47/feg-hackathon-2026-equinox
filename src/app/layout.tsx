@@ -5,7 +5,7 @@ import { AccountProvider } from '@/lib/account';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: { default: 'Empire of Gold', template: '%s · Empire of Gold' },
+  title: { default: 'Slipstream', template: '%s · Slipstream' },
   description: 'Instant-loading casino lobby.',
 };
 

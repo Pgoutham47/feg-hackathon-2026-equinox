@@ -38,7 +38,7 @@ export function SignInDialog({ open, onClose }: { open: boolean; onClose: () => 
           onClose();
         }}
       >
-        <p className="text-xs font-medium tracking-widest text-gold uppercase">Empire of Gold</p>
+        <p className="text-xs font-medium tracking-widest text-gold uppercase">Slipstream</p>
         <h2 className="mt-1 text-xl font-semibold">Sign in to play</h2>
         <p className="mt-1 text-sm text-muted">
           Demo account — any name works, and you start with {money(OPENING_BALANCE)} in play money.

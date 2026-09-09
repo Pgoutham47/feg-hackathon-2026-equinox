@@ -1,6 +1,6 @@
 # Compliance Note — EU Baseline & Responsible Gambling
 
-**Empire of Gold** — instant-loading casino lobby (prefetch & caching prototype)
+**Slipstream** — instant-loading casino lobby (prefetch & caching prototype)
 
 | | |
 |---|---|

@@ -35,9 +35,11 @@ submitted source. `package-lock.json` records the exact resolved set.
 
 ## 3. The game bundle — `public/bundle/`
 
-**This is a pre-built, certified third-party game build. It is not the
-submitting team's work, and it is redistributed here byte-identical and
-unmodified.** No file in it was edited, recompiled, re-encoded or re-hashed; the
+**This is the pre-built, certified third-party game build supplied to us for
+this challenge — *Empire of Gold*. It is not the submitting team's work, and it
+is redistributed here byte-identical and unmodified.** Every tile in the
+Slipstream lobby boots this one bundle; the game's own name is not our project's
+name. No file in it was edited, recompiled, re-encoded or re-hashed; the
 whole caching strategy is built around not touching it.
 
 Reviewers evaluating licensing should treat this directory as supplied vendor

@@ -62,7 +62,7 @@ export function Dashboard({
           <GameBrowser games={games} art={art} query={query} />
 
           <footer className="border-t border-border pt-6 pb-2 text-xs leading-relaxed text-muted">
-            <p className="font-medium text-text">Empire of Gold — demo build</p>
+            <p className="font-medium text-text">Slipstream — demo build</p>
             <p className="mt-1">
               No real money and no real account: the balance, the jackpots and the promotions are
               dummy data, and nothing you enter leaves this browser. The thirty games and their

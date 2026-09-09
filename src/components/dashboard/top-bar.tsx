@@ -27,7 +27,7 @@ export function TopBar({ query, onQuery }: { query: string; onQuery: (value: str
             EG
           </span>
           <span className="hidden text-sm font-semibold tracking-tight sm:block">
-            Empire of Gold
+            Slipstream
           </span>
         </Link>
 

@@ -1,6 +1,6 @@
 # Impact Case & Cost-Value Analysis
 
-**Empire of Gold** — instant game launch through a certified-bundle-safe prefetch
+**Slipstream** — instant game launch for certified casino bundles
 Team Equinox · Challenge 03 — Game Load Time: 6-8 Seconds to Near-Instant · FEG Innovation Hackathon 2026
 
 > **Summary.** Opening a game costs a player **5.4 seconds** of dead waiting on a

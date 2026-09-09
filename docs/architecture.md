@@ -1,6 +1,6 @@
 # Architecture
 
-Technical overview of Empire of Gold: components, data flow, external
+Technical overview of Slipstream: components, data flow, external
 dependencies and deployment assumptions. The reviewer-facing setup and run
 instructions are in the [README](../README.md); the third-party disclosure is in
 [dependencies.md](./dependencies.md).

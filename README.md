@@ -1,11 +1,11 @@
-# Empire of Gold — a casino lobby that opens games instantly
+# Slipstream — a casino lobby that opens games instantly
 
 | | |
 |---|---|
 | **Team name** | Equinox |
 | **Team members** | Maheswar Sahoo · Pakala Goutham · Tigulla Geetha · Kompally Ravi Varma (4) |
 | **Challenge** | **03 — Game Load Time: 6–8 Seconds to Near-Instant** |
-| **Solution title** | Empire of Gold — instant game launch through a certified-bundle-safe prefetch |
+| **Solution title** | **Slipstream** — instant game launch for certified casino bundles |
 
 > **The challenge asks:** *How might we cut game load time to around 500
 > milliseconds — so choosing a game feels as fast as scrolling a feed, and
@@ -14,6 +14,12 @@
 > **Our answer: 243 ms measured, and trying a new game costs nothing at all** —
 > because all thirty games boot the same bundle, so the thirtieth game is as
 > instant as the first. The certified package is never altered.
+
+**On naming:** *Slipstream* is our solution — the lobby and the caching engine.
+*Empire of Gold* is the **certified game bundle supplied to us for this
+challenge**; it lives in `public/bundle/`, is served byte-identical, and is not
+our work. Every tile in the lobby boots it, which is precisely what makes one
+warm cache serve the whole catalogue.
 
 ---
 
@@ -85,6 +91,30 @@ fails:
 A 22× improvement on the warm case, and — the row that matters most — a prefetch
 in flight *halves* the wait rather than competing with it, because it is already
 pulling the exact files the game is about to ask for.
+
+### Full game load — nothing left to download
+
+The table above is time to the *Play screen*. A game is not finished loading
+there: **50.83 MB across 140 requests** still has to arrive before nothing can
+stutter mid-session. Warm, that whole set is a disk read.
+
+| Connection | Speed | Without prefetch | With prefetch | Faster |
+|---|---|---|---|---|
+| Slow 3G | 2 Mbps | ~3 min 23 s | **0.8 s** | **254×** |
+| 3G | 5 Mbps | ~1 min 21 s | **0.8 s** | **102×** |
+| Throttled test | 8 Mbps | ~51 s | **0.8 s** | **64×** |
+| 4G average | 20 Mbps | ~20 s | **0.8 s** | **25×** |
+| Good 4G | 50 Mbps | ~8 s | **0.8 s** | **10×** |
+| Wi-Fi / fibre | 100 Mbps | ~4 s | **0.8 s** | **5×** |
+
+The 8 Mbps row is measured; the rest is 50.83 MB ÷ speed, and the load is
+bandwidth-bound, so the division holds. **The right-hand column does not move.**
+0.8 s on Slow 3G is the same 0.8 s as on fibre, because nothing is being
+downloaded — it is a disk read and a decode.
+
+That is the distributional point in one column: on fibre this saves three
+seconds, on a bad mobile link it saves three minutes. The benefit lands hardest
+on the players with the worst connections and the cheapest phones.
 
 ### See it in the product, not on a slide
 
